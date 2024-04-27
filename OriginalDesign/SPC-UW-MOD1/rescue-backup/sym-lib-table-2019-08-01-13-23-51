@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name SPC-UW-MOD1-rescue)(type Legacy)(uri ${KIPRJMOD}/SPC-UW-MOD1-rescue.lib)(options "")(descr ""))
+)

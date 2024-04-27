@@ -1,0 +1,1408 @@
+EESchema Schematic File Version 2
+LIBS:SPCInterfaceBoard-v01-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SPCControlBoard-v02-cache
+LIBS:teensy_3.1
+LIBS:sfh6156
+LIBS:adm3251e
+LIBS:SparkFun-DigitalIC
+LIBS:SparkFun-DiscreteSemi
+LIBS:SparkFun-Sensors
+LIBS:ilq2
+LIBS:sn74lvc32
+LIBS:74lvc1g157
+LIBS:apxw003a0x3-srz
+LIBS:lt3965
+LIBS:acsl-6400
+LIBS:Cree LEDs
+LIBS:SPCInterfaceBoard-v01-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Cree_XP-L_HI D18
+U 1 1 569BE0A6
+P 7605 1265
+F 0 "D18" H 7555 1390 50  0000 L CNN
+F 1 "Cree_XP-L_HI" H 7390 1465 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:Cree_XP-L_HI-vias-4" V 7605 1265 50  0001 C CNN
+F 3 "" V 7605 1265 50  0000 C CNN
+	1    7605 1265
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HAT2168H U25
+U 1 1 569BE0AD
+P 8265 1815
+F 0 "U25" H 7245 1895 60  0000 C CNN
+F 1 "HAT2168H" H 7225 1995 60  0000 C CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:SOT-669_LFPAK-vias" H 8265 1815 60  0001 C CNN
+F 3 "" H 8265 1815 60  0000 C CNN
+	1    8265 1815
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R96
+U 1 1 569BE0E2
+P 7205 2140
+F 0 "R96" V 7285 2140 50  0000 C CNN
+F 1 "100k" V 7205 2140 50  0000 C CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" V 7135 2140 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-3GEYJ104V/P100KGCT-ND/134878" H 7205 2140 50  0001 C CNN
+	1    7205 2140
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP1826 U22
+U 1 1 569BE0EC
+P 3645 2640
+F 0 "U22" H 3645 2985 60  0000 C CNN
+F 1 "MCP1826" H 3640 3080 60  0000 C CNN
+F 2 "w_smd_trans:d-pak-5" H 3645 2640 60  0001 C CNN
+F 3 "" H 3645 2640 60  0000 C CNN
+	1    3645 2640
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C55
+U 1 1 569BE0F3
+P 3130 2265
+F 0 "C55" H 3155 2365 50  0000 L CNN
+F 1 "4.7 uF 10V" H 2585 2265 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:c_0603" H 3168 2115 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/GRM21BR71A475KA73K/490-6479-1-ND/3845676" H 3130 2265 50  0001 C CNN
+	1    3130 2265
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C58
+U 1 1 569BE0FA
+P 4180 2270
+F 0 "C58" H 4205 2370 50  0000 L CNN
+F 1 "1uF 10V" H 4205 2170 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:c_0603" H 4218 2120 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/C1608X7R1A105K080AC/445-5138-1-ND/2093753" H 4180 2270 50  0001 C CNN
+	1    4180 2270
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R87
+U 1 1 569BE104
+P 2970 2555
+F 0 "R87" H 3230 2630 70  0000 L CNN
+F 1 "10k" H 3205 2540 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 2970 2555 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB103V/P10KDBCT-ND/1466076" H 2970 2555 60  0001 C CNN
+	1    2970 2555
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP2
+U 1 1 569BE10D
+P 3220 2695
+F 0 "JP2" H 3220 2775 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3230 2635 50  0001 C CNN
+F 2 "Resistors_SMD:R_0402" H 3220 2695 50  0001 C CNN
+F 3 "" H 3220 2695 50  0000 C CNN
+	1    3220 2695
+	0    -1   -1   0   
+$EndComp
+$Comp
+L POT-RESCUE-SPCInterfaceBoard-v01 RV2
+U 1 1 569BE11A
+P 4850 2555
+F 0 "RV2" H 4850 2455 50  0000 C CNN
+F 1 "POT 250k" H 4850 2555 50  0001 C CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:BOURNS3361P" H 4850 2555 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/3361P-1-254GLF/3361P-1-254GLFCT-ND/1817912" H 4850 2555 50  0001 C CNN
+	1    4850 2555
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R90
+U 1 1 569BE121
+P 4145 2885
+F 0 "R90" H 4120 2700 70  0000 L CNN
+F 1 "50k" H 4090 2785 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 4145 2885 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PNM0603E5002BST5/PNM0603-50KBCT-ND/2120388" H 4145 2885 60  0001 C CNN
+	1    4145 2885
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R93
+U 1 1 569BE128
+P 4340 2555
+F 0 "R93" H 4280 2470 70  0000 L CNN
+F 1 "200k" H 4220 2645 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 4340 2555 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB204V/P200KDBCT-ND/1466107" H 4340 2555 60  0001 C CNN
+	1    4340 2555
+	-1   0    0    1   
+$EndComp
+Text Label 4850 2405 0    60   ~ 0
+Vled1
+Text Label 7330 1160 2    60   ~ 0
+Vled1
+Text HLabel 7695 1265 3    60   Input ~ 0
+GNDiso
+Text HLabel 2770 2415 0    60   Input ~ 0
++5Viso
+Text HLabel 6825 1100 0    60   Input ~ 0
+GNDiso
+Text HLabel 2985 2865 0    60   Input ~ 0
+GNDiso
+Text HLabel 2975 2115 0    60   Input ~ 0
+GNDiso
+Text HLabel 7205 1955 0    60   Input ~ 0
+Drv2
+$Comp
+L Cree_XP-L_HI D23
+U 1 1 569BEFFC
+P 8015 1265
+F 0 "D23" H 7965 1390 50  0000 L CNN
+F 1 "Cree_XP-L_HI" H 7800 1465 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:Cree_XP-L_HI-vias-4" V 8015 1265 50  0001 C CNN
+F 3 "" V 8015 1265 50  0000 C CNN
+	1    8015 1265
+	0    -1   -1   0   
+$EndComp
+Text HLabel 8105 1265 3    60   Input ~ 0
+GNDiso
+$Comp
+L Cree_XP-L_HI D26
+U 1 1 569BF30A
+P 8415 1265
+F 0 "D26" H 8365 1390 50  0000 L CNN
+F 1 "Cree_XP-L_HI" H 8200 1465 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:Cree_XP-L_HI-vias-4" V 8415 1265 50  0001 C CNN
+F 3 "" V 8415 1265 50  0000 C CNN
+	1    8415 1265
+	0    -1   -1   0   
+$EndComp
+Text HLabel 8505 1265 3    60   Input ~ 0
+GNDiso
+$Comp
+L Cree_XP-L_HI D29
+U 1 1 569BF313
+P 8825 1265
+F 0 "D29" H 8775 1390 50  0000 L CNN
+F 1 "Cree_XP-L_HI" H 8610 1465 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:Cree_XP-L_HI-vias-4" V 8825 1265 50  0001 C CNN
+F 3 "" V 8825 1265 50  0000 C CNN
+	1    8825 1265
+	0    -1   -1   0   
+$EndComp
+Text HLabel 8915 1265 3    60   Input ~ 0
+GNDiso
+$Comp
+L Cree_XP-L_HI D32
+U 1 1 569BF4D5
+P 9210 1265
+F 0 "D32" H 9160 1390 50  0000 L CNN
+F 1 "Cree_XP-L_HI" H 8995 1465 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:Cree_XP-L_HI-vias-4" V 9210 1265 50  0001 C CNN
+F 3 "" V 9210 1265 50  0000 C CNN
+	1    9210 1265
+	0    -1   -1   0   
+$EndComp
+Text HLabel 9300 1265 3    60   Input ~ 0
+GNDiso
+$Comp
+L Cree_XP-L_HI D35
+U 1 1 569BF4DD
+P 9620 1265
+F 0 "D35" H 9570 1390 50  0000 L CNN
+F 1 "Cree_XP-L_HI" H 9405 1465 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:Cree_XP-L_HI-vias-4" V 9620 1265 50  0001 C CNN
+F 3 "" V 9620 1265 50  0000 C CNN
+	1    9620 1265
+	0    -1   -1   0   
+$EndComp
+Text HLabel 9710 1265 3    60   Input ~ 0
+GNDiso
+$Comp
+L Cree_XP-L_HI D38
+U 1 1 569BF4E5
+P 10020 1265
+F 0 "D38" H 9970 1390 50  0000 L CNN
+F 1 "Cree_XP-L_HI" H 9805 1465 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:Cree_XP-L_HI-vias-4" V 10020 1265 50  0001 C CNN
+F 3 "" V 10020 1265 50  0000 C CNN
+	1    10020 1265
+	0    -1   -1   0   
+$EndComp
+Text HLabel 10110 1265 3    60   Input ~ 0
+GNDiso
+$Comp
+L Cree_XP-L_HI D41
+U 1 1 569BF4ED
+P 10430 1265
+F 0 "D41" H 10380 1390 50  0000 L CNN
+F 1 "Cree_XP-L_HI" H 10215 1465 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:Cree_XP-L_HI-vias-4" V 10430 1265 50  0001 C CNN
+F 3 "" V 10430 1265 50  0000 C CNN
+	1    10430 1265
+	0    -1   -1   0   
+$EndComp
+Text HLabel 10520 1265 3    60   Input ~ 0
+GNDiso
+$Comp
+L HAT2168H U28
+U 1 1 569C27E4
+P 9745 1815
+F 0 "U28" H 8725 1895 60  0000 C CNN
+F 1 "HAT2168H" H 8545 1815 60  0000 C CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:SOT-669_LFPAK-vias" H 9745 1815 60  0001 C CNN
+F 3 "" H 9745 1815 60  0000 C CNN
+	1    9745 1815
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7605 1365 7605 1515
+Wire Wire Line
+	7605 1040 7605 1165
+Wire Wire Line
+	6825 740  6825 2345
+Connection ~ 7605 2345
+Connection ~ 7695 2345
+Wire Wire Line
+	7205 1955 7205 1990
+Wire Wire Line
+	7205 2290 7205 2345
+Connection ~ 7205 2345
+Wire Wire Line
+	4065 2420 4485 2420
+Wire Wire Line
+	2770 2415 3220 2415
+Connection ~ 3130 2415
+Wire Wire Line
+	3170 2555 3220 2555
+Wire Wire Line
+	2770 2555 2770 2415
+Wire Wire Line
+	3220 2795 3220 3085
+Wire Wire Line
+	3220 2865 2985 2865
+Wire Wire Line
+	2975 2115 4180 2115
+Wire Wire Line
+	4180 2115 4180 2120
+Connection ~ 3130 2115
+Wire Wire Line
+	4485 2420 4485 2405
+Wire Wire Line
+	4485 2405 4850 2405
+Connection ~ 4180 2420
+Wire Wire Line
+	4600 2555 4540 2555
+Wire Wire Line
+	4070 2555 4145 2555
+Wire Wire Line
+	4145 2555 4145 2685
+Wire Wire Line
+	3220 3085 4145 3085
+Connection ~ 3220 2865
+Connection ~ 8015 1165
+Connection ~ 8415 1165
+Connection ~ 8825 1165
+Wire Wire Line
+	7330 1165 10430 1165
+Connection ~ 9210 1165
+Connection ~ 9620 1165
+Connection ~ 10020 1165
+Wire Wire Line
+	7605 1365 10430 1365
+Connection ~ 10020 1365
+Connection ~ 9620 1365
+Connection ~ 9210 1365
+Connection ~ 8825 1365
+Connection ~ 8415 1365
+Connection ~ 8015 1365
+Connection ~ 10335 1365
+Connection ~ 9085 1365
+Connection ~ 7775 2345
+Wire Wire Line
+	10335 1365 10335 1515
+Wire Wire Line
+	9085 1365 9085 1515
+Text HLabel 8685 1955 0    60   Input ~ 0
+Drv2
+$Comp
+L CP C64
+U 1 1 569C50BF
+P 8015 890
+F 0 "C64" H 8040 990 50  0000 L CNN
+F 1 "330 uF 10V" H 7825 535 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 8053 740 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10TPB330M/P16449CT-ND/4204231" H 8015 890 50  0001 C CNN
+	1    8015 890 
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C67
+U 1 1 569C5279
+P 8415 890
+F 0 "C67" H 8440 990 50  0000 L CNN
+F 1 "330 uF 10V" H 8225 535 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 8453 740 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10TPB330M/P16449CT-ND/4204231" H 8415 890 50  0001 C CNN
+	1    8415 890 
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C70
+U 1 1 569C5423
+P 8825 890
+F 0 "C70" H 8850 990 50  0000 L CNN
+F 1 "330 uF 10V" H 8635 535 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 8863 740 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10TPB330M/P16449CT-ND/4204231" H 8825 890 50  0001 C CNN
+	1    8825 890 
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C73
+U 1 1 569C54AA
+P 9210 890
+F 0 "C73" H 9235 990 50  0000 L CNN
+F 1 "330 uF 10V" H 9020 535 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 9248 740 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10TPB330M/P16449CT-ND/4204231" H 9210 890 50  0001 C CNN
+	1    9210 890 
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C76
+U 1 1 569C5684
+P 9620 890
+F 0 "C76" H 9645 990 50  0000 L CNN
+F 1 "330 uF 10V" H 9430 535 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 9658 740 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10TPB330M/P16449CT-ND/4204231" H 9620 890 50  0001 C CNN
+	1    9620 890 
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C79
+U 1 1 569C57A5
+P 10020 890
+F 0 "C79" H 10045 990 50  0000 L CNN
+F 1 "330 uF 10V" H 9830 535 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 10058 740 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10TPB330M/P16449CT-ND/4204231" H 10020 890 50  0001 C CNN
+	1    10020 890 
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C82
+U 1 1 569C583D
+P 10430 890
+F 0 "C82" H 10455 990 50  0000 L CNN
+F 1 "330 uF 10V" H 10240 535 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 10468 740 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10TPB330M/P16449CT-ND/4204231" H 10430 890 50  0001 C CNN
+	1    10430 890 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8415 1040 8415 1165
+Wire Wire Line
+	8825 1040 8825 1165
+Wire Wire Line
+	9210 1040 9210 1165
+Wire Wire Line
+	9620 1040 9620 1165
+Wire Wire Line
+	10020 1040 10020 1165
+Wire Wire Line
+	10430 1165 10430 1040
+$Comp
+L CP C61
+U 1 1 569C8E88
+P 7605 890
+F 0 "C61" H 7630 990 50  0000 L CNN
+F 1 "330 uF 10V" H 7600 545 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 7643 740 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10TPB330M/P16449CT-ND/4204231" H 7605 890 50  0001 C CNN
+	1    7605 890 
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R99
+U 1 1 569C9EE8
+P 8685 2150
+F 0 "R99" V 8765 2150 50  0000 C CNN
+F 1 "100k" V 8685 2150 50  0000 C CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" V 8615 2150 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-3GEYJ104V/P100KGCT-ND/134878" H 8685 2150 50  0001 C CNN
+	1    8685 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6825 2345 10505 2345
+Connection ~ 9085 2345
+Connection ~ 9175 2345
+Connection ~ 9255 2345
+Connection ~ 10335 2345
+Connection ~ 10425 2345
+Wire Wire Line
+	9935 2305 9935 2345
+Connection ~ 9935 2345
+Wire Wire Line
+	8685 2300 8685 2345
+Connection ~ 8685 2345
+Wire Wire Line
+	8685 1955 8685 2000
+$Comp
+L MCP1826 U23
+U 1 1 569CD705
+P 3680 4015
+F 0 "U23" H 3680 4360 60  0000 C CNN
+F 1 "MCP1826" H 3675 4455 60  0000 C CNN
+F 2 "w_smd_trans:d-pak-5" H 3680 4015 60  0001 C CNN
+F 3 "" H 3680 4015 60  0000 C CNN
+	1    3680 4015
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C56
+U 1 1 569CD70B
+P 3165 3640
+F 0 "C56" H 3190 3740 50  0000 L CNN
+F 1 "4.7 uF 10V" H 2620 3640 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:c_0603" H 3203 3490 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/GRM21BR71A475KA73K/490-6479-1-ND/3845676" H 3165 3640 50  0001 C CNN
+	1    3165 3640
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C59
+U 1 1 569CD711
+P 4215 3645
+F 0 "C59" H 4240 3745 50  0000 L CNN
+F 1 "1uF 10V" H 4240 3545 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:c_0603" H 4253 3495 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/C1608X7R1A105K080AC/445-5138-1-ND/2093753" H 4215 3645 50  0001 C CNN
+	1    4215 3645
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R88
+U 1 1 569CD717
+P 3005 3930
+F 0 "R88" H 3265 4005 70  0000 L CNN
+F 1 "10k" H 3240 3915 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 3005 3930 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB103V/P10KDBCT-ND/1466076" H 3005 3930 60  0001 C CNN
+	1    3005 3930
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP3
+U 1 1 569CD71D
+P 3255 4070
+F 0 "JP3" H 3255 4150 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3265 4010 50  0001 C CNN
+F 2 "Resistors_SMD:R_0402" H 3255 4070 50  0001 C CNN
+F 3 "" H 3255 4070 50  0000 C CNN
+	1    3255 4070
+	0    -1   -1   0   
+$EndComp
+$Comp
+L POT-RESCUE-SPCInterfaceBoard-v01 RV3
+U 1 1 569CD723
+P 4885 3930
+F 0 "RV3" H 4885 3830 50  0000 C CNN
+F 1 "POT 250k" H 4885 3930 50  0001 C CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:BOURNS3361P" H 4885 3930 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/3361P-1-254GLF/3361P-1-254GLFCT-ND/1817912" H 4885 3930 50  0001 C CNN
+	1    4885 3930
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R91
+U 1 1 569CD729
+P 4180 4260
+F 0 "R91" H 4155 4075 70  0000 L CNN
+F 1 "50k" H 4125 4160 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 4180 4260 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PNM0603E5002BST5/PNM0603-50KBCT-ND/2120388" H 4180 4260 60  0001 C CNN
+	1    4180 4260
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R94
+U 1 1 569CD72F
+P 4375 3930
+F 0 "R94" H 4315 3845 70  0000 L CNN
+F 1 "200k" H 4255 4020 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 4375 3930 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB204V/P200KDBCT-ND/1466107" H 4375 3930 60  0001 C CNN
+	1    4375 3930
+	-1   0    0    1   
+$EndComp
+Text Label 4885 3780 0    60   ~ 0
+Vled2
+Text HLabel 2805 3790 0    60   Input ~ 0
++5Viso
+Text HLabel 3020 4240 0    60   Input ~ 0
+GNDiso
+Text HLabel 3010 3490 0    60   Input ~ 0
+GNDiso
+Wire Wire Line
+	4100 3795 4520 3795
+Wire Wire Line
+	2805 3790 3255 3790
+Connection ~ 3165 3790
+Wire Wire Line
+	3205 3930 3255 3930
+Wire Wire Line
+	2805 3930 2805 3790
+Wire Wire Line
+	3255 3930 3255 3970
+Wire Wire Line
+	3255 4170 3255 4460
+Wire Wire Line
+	3255 4240 3020 4240
+Wire Wire Line
+	3010 3490 4215 3490
+Wire Wire Line
+	4215 3490 4215 3495
+Connection ~ 3165 3490
+Wire Wire Line
+	4520 3795 4520 3780
+Wire Wire Line
+	4520 3780 4885 3780
+Connection ~ 4215 3795
+Wire Wire Line
+	4635 3930 4575 3930
+Wire Wire Line
+	4105 3930 4180 3930
+Wire Wire Line
+	4180 3930 4180 4060
+Wire Wire Line
+	3255 4460 4180 4460
+Connection ~ 3255 4240
+Wire Wire Line
+	7330 1165 7330 1160
+Connection ~ 7605 1165
+Wire Wire Line
+	6825 740  10430 740 
+Connection ~ 7605 740 
+Connection ~ 8015 740 
+Connection ~ 8825 740 
+Connection ~ 9210 740 
+Connection ~ 9620 740 
+Connection ~ 10020 740 
+$Comp
+L Cree_XP-L_HI D21
+U 1 1 569D6603
+P 7635 3390
+F 0 "D21" H 7585 3515 50  0000 L CNN
+F 1 "Cree_XP-L_HI" H 7420 3590 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:Cree_XP-L_HI-vias-4" V 7635 3390 50  0001 C CNN
+F 3 "" V 7635 3390 50  0000 C CNN
+	1    7635 3390
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HAT2168H U26
+U 1 1 569D6609
+P 8295 3940
+F 0 "U26" H 7275 4020 60  0000 C CNN
+F 1 "HAT2168H" H 7255 4120 60  0000 C CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:SOT-669_LFPAK-vias" H 8295 3940 60  0001 C CNN
+F 3 "" H 8295 3940 60  0000 C CNN
+	1    8295 3940
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R97
+U 1 1 569D660F
+P 7235 4265
+F 0 "R97" V 7315 4265 50  0000 C CNN
+F 1 "100k" V 7235 4265 50  0000 C CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" V 7165 4265 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-3GEYJ104V/P100KGCT-ND/134878" H 7235 4265 50  0001 C CNN
+	1    7235 4265
+	1    0    0    -1  
+$EndComp
+Text Label 7360 3285 2    60   ~ 0
+Vled2
+Text HLabel 7725 3390 3    60   Input ~ 0
+GNDiso
+Text HLabel 6855 3225 0    60   Input ~ 0
+GNDiso
+Text HLabel 7235 4080 0    60   Input ~ 0
+Drv2
+$Comp
+L Cree_XP-L_HI D24
+U 1 1 569D6619
+P 8045 3390
+F 0 "D24" H 7995 3515 50  0000 L CNN
+F 1 "Cree_XP-L_HI" H 7830 3590 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:Cree_XP-L_HI-vias-4" V 8045 3390 50  0001 C CNN
+F 3 "" V 8045 3390 50  0000 C CNN
+	1    8045 3390
+	0    -1   -1   0   
+$EndComp
+Text HLabel 8135 3390 3    60   Input ~ 0
+GNDiso
+$Comp
+L Cree_XP-L_HI D27
+U 1 1 569D6620
+P 8445 3390
+F 0 "D27" H 8395 3515 50  0000 L CNN
+F 1 "Cree_XP-L_HI" H 8230 3590 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:Cree_XP-L_HI-vias-4" V 8445 3390 50  0001 C CNN
+F 3 "" V 8445 3390 50  0000 C CNN
+	1    8445 3390
+	0    -1   -1   0   
+$EndComp
+Text HLabel 8535 3390 3    60   Input ~ 0
+GNDiso
+$Comp
+L Cree_XP-L_HI D30
+U 1 1 569D6627
+P 8855 3390
+F 0 "D30" H 8805 3515 50  0000 L CNN
+F 1 "Cree_XP-L_HI" H 8640 3590 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:Cree_XP-L_HI-vias-4" V 8855 3390 50  0001 C CNN
+F 3 "" V 8855 3390 50  0000 C CNN
+	1    8855 3390
+	0    -1   -1   0   
+$EndComp
+Text HLabel 8945 3390 3    60   Input ~ 0
+GNDiso
+$Comp
+L Cree_XP-L_HI D33
+U 1 1 569D662E
+P 9240 3390
+F 0 "D33" H 9190 3515 50  0000 L CNN
+F 1 "Cree_XP-L_HI" H 9025 3590 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:Cree_XP-L_HI-vias-4" V 9240 3390 50  0001 C CNN
+F 3 "" V 9240 3390 50  0000 C CNN
+	1    9240 3390
+	0    -1   -1   0   
+$EndComp
+Text HLabel 9330 3390 3    60   Input ~ 0
+GNDiso
+$Comp
+L Cree_XP-L_HI D36
+U 1 1 569D6635
+P 9650 3390
+F 0 "D36" H 9600 3515 50  0000 L CNN
+F 1 "Cree_XP-L_HI" H 9435 3590 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:Cree_XP-L_HI-vias-4" V 9650 3390 50  0001 C CNN
+F 3 "" V 9650 3390 50  0000 C CNN
+	1    9650 3390
+	0    -1   -1   0   
+$EndComp
+Text HLabel 9740 3390 3    60   Input ~ 0
+GNDiso
+$Comp
+L HAT2168H U29
+U 1 1 569D6650
+P 9775 3940
+F 0 "U29" H 8755 4020 60  0000 C CNN
+F 1 "HAT2168H" H 8575 3940 60  0000 C CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:SOT-669_LFPAK-vias" H 9775 3940 60  0001 C CNN
+F 3 "" H 9775 3940 60  0000 C CNN
+	1    9775 3940
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7635 3490 7635 3640
+Wire Wire Line
+	7635 3165 7635 3290
+Wire Wire Line
+	6855 2865 6855 4470
+Connection ~ 7635 4470
+Connection ~ 7725 4470
+Wire Wire Line
+	7235 4080 7235 4115
+Wire Wire Line
+	7235 4415 7235 4470
+Connection ~ 7235 4470
+Connection ~ 8445 3290
+Connection ~ 8855 3290
+Wire Wire Line
+	7360 3290 10460 3290
+Connection ~ 9240 3290
+Connection ~ 9650 3290
+Connection ~ 10050 3290
+Wire Wire Line
+	7635 3490 10845 3490
+Connection ~ 10050 3490
+Connection ~ 9650 3490
+Connection ~ 9240 3490
+Connection ~ 8855 3490
+Connection ~ 8445 3490
+Connection ~ 8045 3490
+Connection ~ 10365 3490
+Connection ~ 9115 3490
+Connection ~ 7805 4470
+Wire Wire Line
+	9115 3490 9115 3640
+Text HLabel 8715 4080 0    60   Input ~ 0
+Drv2
+$Comp
+L CP C65
+U 1 1 569D6673
+P 8045 3015
+F 0 "C65" H 8070 3115 50  0000 L CNN
+F 1 "330 uF 10V" H 7855 2660 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 8083 2865 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10TPB330M/P16449CT-ND/4204231" H 8045 3015 50  0001 C CNN
+	1    8045 3015
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C68
+U 1 1 569D6679
+P 8445 3015
+F 0 "C68" H 8470 3115 50  0000 L CNN
+F 1 "330 uF 10V" H 8255 2660 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 8483 2865 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10TPB330M/P16449CT-ND/4204231" H 8445 3015 50  0001 C CNN
+	1    8445 3015
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C71
+U 1 1 569D667F
+P 8855 3015
+F 0 "C71" H 8880 3115 50  0000 L CNN
+F 1 "330 uF 10V" H 8665 2660 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 8893 2865 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10TPB330M/P16449CT-ND/4204231" H 8855 3015 50  0001 C CNN
+	1    8855 3015
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C74
+U 1 1 569D6685
+P 9240 3015
+F 0 "C74" H 9265 3115 50  0000 L CNN
+F 1 "330 uF 10V" H 9050 2660 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 9278 2865 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10TPB330M/P16449CT-ND/4204231" H 9240 3015 50  0001 C CNN
+	1    9240 3015
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C77
+U 1 1 569D668B
+P 9650 3015
+F 0 "C77" H 9675 3115 50  0000 L CNN
+F 1 "330 uF 10V" H 9460 2660 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 9688 2865 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10TPB330M/P16449CT-ND/4204231" H 9650 3015 50  0001 C CNN
+	1    9650 3015
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8045 3165 8045 3290
+Wire Wire Line
+	8445 3165 8445 3290
+Wire Wire Line
+	8855 3165 8855 3290
+Wire Wire Line
+	9240 3165 9240 3290
+Wire Wire Line
+	9650 3165 9650 3290
+Wire Wire Line
+	10050 3165 10050 3290
+Wire Wire Line
+	10460 3290 10460 3165
+$Comp
+L CP C62
+U 1 1 569D66A4
+P 7635 3015
+F 0 "C62" H 7660 3115 50  0000 L CNN
+F 1 "330 uF 10V" H 7630 2670 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 7673 2865 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10TPB330M/P16449CT-ND/4204231" H 7635 3015 50  0001 C CNN
+	1    7635 3015
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R100
+U 1 1 569D66AA
+P 8715 4275
+F 0 "R100" V 8795 4275 50  0000 C CNN
+F 1 "100k" V 8715 4275 50  0000 C CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" V 8645 4275 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-3GEYJ104V/P100KGCT-ND/134878" H 8715 4275 50  0001 C CNN
+	1    8715 4275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6855 4470 10535 4470
+Connection ~ 9115 4470
+Connection ~ 9205 4470
+Connection ~ 9285 4470
+Connection ~ 10365 4470
+Connection ~ 10455 4470
+Wire Wire Line
+	9965 4430 9965 4470
+Connection ~ 9965 4470
+Wire Wire Line
+	8715 4425 8715 4470
+Connection ~ 8715 4470
+Wire Wire Line
+	8715 4080 8715 4125
+Wire Wire Line
+	7360 3290 7360 3285
+Connection ~ 7635 3290
+Wire Wire Line
+	6855 2865 10460 2865
+Connection ~ 7635 2865
+Connection ~ 8045 2865
+Connection ~ 8445 2865
+Connection ~ 8855 2865
+Connection ~ 9240 2865
+Connection ~ 9650 2865
+Connection ~ 10050 2865
+$Comp
+L Cree_XP-L_HI D22
+U 1 1 569D7AC4
+P 7645 5385
+F 0 "D22" H 7595 5510 50  0000 L CNN
+F 1 "Cree_XP-L_HI" H 7430 5585 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:Cree_XP-L_HI-vias-4" V 7645 5385 50  0001 C CNN
+F 3 "" V 7645 5385 50  0000 C CNN
+	1    7645 5385
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HAT2168H U27
+U 1 1 569D7ACA
+P 8305 5935
+F 0 "U27" H 7285 6015 60  0000 C CNN
+F 1 "HAT2168H" H 7265 6115 60  0000 C CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:SOT-669_LFPAK-vias" H 8305 5935 60  0001 C CNN
+F 3 "" H 8305 5935 60  0000 C CNN
+	1    8305 5935
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R98
+U 1 1 569D7AD0
+P 7245 6260
+F 0 "R98" V 7325 6260 50  0000 C CNN
+F 1 "100k" V 7245 6260 50  0000 C CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" V 7175 6260 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-3GEYJ104V/P100KGCT-ND/134878" H 7245 6260 50  0001 C CNN
+	1    7245 6260
+	1    0    0    -1  
+$EndComp
+Text HLabel 7735 5385 3    60   Input ~ 0
+GNDiso
+Text HLabel 6865 5220 0    60   Input ~ 0
+GNDiso
+Text HLabel 7245 6075 0    60   Input ~ 0
+Drv3
+$Comp
+L Cree_XP-L_HI D25
+U 1 1 569D7ADA
+P 8055 5385
+F 0 "D25" H 8005 5510 50  0000 L CNN
+F 1 "Cree_XP-L_HI" H 7840 5585 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:Cree_XP-L_HI-vias-4" V 8055 5385 50  0001 C CNN
+F 3 "" V 8055 5385 50  0000 C CNN
+	1    8055 5385
+	0    -1   -1   0   
+$EndComp
+Text HLabel 8145 5385 3    60   Input ~ 0
+GNDiso
+$Comp
+L Cree_XP-L_HI D28
+U 1 1 569D7AE1
+P 8455 5385
+F 0 "D28" H 8405 5510 50  0000 L CNN
+F 1 "Cree_XP-L_HI" H 8240 5585 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:Cree_XP-L_HI-vias-4" V 8455 5385 50  0001 C CNN
+F 3 "" V 8455 5385 50  0000 C CNN
+	1    8455 5385
+	0    -1   -1   0   
+$EndComp
+Text HLabel 8545 5385 3    60   Input ~ 0
+GNDiso
+$Comp
+L Cree_XP-L_HI D31
+U 1 1 569D7AE8
+P 8865 5385
+F 0 "D31" H 8815 5510 50  0000 L CNN
+F 1 "Cree_XP-L_HI" H 8650 5585 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:Cree_XP-L_HI-vias-4" V 8865 5385 50  0001 C CNN
+F 3 "" V 8865 5385 50  0000 C CNN
+	1    8865 5385
+	0    -1   -1   0   
+$EndComp
+Text HLabel 8955 5385 3    60   Input ~ 0
+GNDiso
+$Comp
+L Cree_XP-L_HI D34
+U 1 1 569D7AEF
+P 9250 5385
+F 0 "D34" H 9200 5510 50  0000 L CNN
+F 1 "Cree_XP-L_HI" H 9035 5585 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:Cree_XP-L_HI-vias-4" V 9250 5385 50  0001 C CNN
+F 3 "" V 9250 5385 50  0000 C CNN
+	1    9250 5385
+	0    -1   -1   0   
+$EndComp
+Text HLabel 9340 5385 3    60   Input ~ 0
+GNDiso
+$Comp
+L Cree_XP-L_HI D37
+U 1 1 569D7AF6
+P 9660 5385
+F 0 "D37" H 9610 5510 50  0000 L CNN
+F 1 "Cree_XP-L_HI" H 9445 5585 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:Cree_XP-L_HI-vias-4" V 9660 5385 50  0001 C CNN
+F 3 "" V 9660 5385 50  0000 C CNN
+	1    9660 5385
+	0    -1   -1   0   
+$EndComp
+Text HLabel 9750 5385 3    60   Input ~ 0
+GNDiso
+$Comp
+L Cree_XP-L_HI D39
+U 1 1 569D7AFD
+P 10060 5385
+F 0 "D39" H 10010 5510 50  0000 L CNN
+F 1 "Cree_XP-L_HI" H 9845 5585 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:Cree_XP-L_HI-vias-4" V 10060 5385 50  0001 C CNN
+F 3 "" V 10060 5385 50  0000 C CNN
+	1    10060 5385
+	0    -1   -1   0   
+$EndComp
+Text HLabel 10150 5385 3    60   Input ~ 0
+GNDiso
+$Comp
+L Cree_XP-L_HI D42
+U 1 1 569D7B04
+P 10470 5385
+F 0 "D42" H 10420 5510 50  0000 L CNN
+F 1 "Cree_XP-L_HI" H 10255 5585 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:Cree_XP-L_HI-vias-4" V 10470 5385 50  0001 C CNN
+F 3 "" V 10470 5385 50  0000 C CNN
+	1    10470 5385
+	0    -1   -1   0   
+$EndComp
+Text HLabel 10560 5385 3    60   Input ~ 0
+GNDiso
+$Comp
+L HAT2168H U30
+U 1 1 569D7B11
+P 9785 5935
+F 0 "U30" H 8765 6015 60  0000 C CNN
+F 1 "HAT2168H" H 8585 5935 60  0000 C CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:SOT-669_LFPAK-vias" H 9785 5935 60  0001 C CNN
+F 3 "" H 9785 5935 60  0000 C CNN
+	1    9785 5935
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7645 5485 7645 5635
+Wire Wire Line
+	6865 4860 6865 6465
+Connection ~ 7645 6465
+Connection ~ 7735 6465
+Wire Wire Line
+	7245 6075 7245 6110
+Wire Wire Line
+	7245 6410 7245 6465
+Connection ~ 7245 6465
+Connection ~ 8455 5285
+Connection ~ 8865 5285
+Wire Wire Line
+	7370 5285 10470 5285
+Connection ~ 9250 5285
+Connection ~ 9660 5285
+Connection ~ 10060 5285
+Wire Wire Line
+	7645 5485 10845 5485
+Connection ~ 10060 5485
+Connection ~ 9660 5485
+Connection ~ 9250 5485
+Connection ~ 8865 5485
+Connection ~ 8455 5485
+Connection ~ 8055 5485
+Connection ~ 10375 5485
+Connection ~ 9125 5485
+Connection ~ 7815 6465
+Wire Wire Line
+	10375 5485 10375 5635
+Wire Wire Line
+	9125 5485 9125 5635
+Text HLabel 8725 6075 0    60   Input ~ 0
+Drv3
+$Comp
+L CP C66
+U 1 1 569D7B34
+P 8055 5010
+F 0 "C66" H 8080 5110 50  0000 L CNN
+F 1 "330 uF 10V" H 7865 4655 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 8093 4860 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10TPB330M/P16449CT-ND/4204231" H 8055 5010 50  0001 C CNN
+	1    8055 5010
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C69
+U 1 1 569D7B3A
+P 8455 5010
+F 0 "C69" H 8480 5110 50  0000 L CNN
+F 1 "330 uF 10V" H 8265 4655 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 8493 4860 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10TPB330M/P16449CT-ND/4204231" H 8455 5010 50  0001 C CNN
+	1    8455 5010
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C72
+U 1 1 569D7B40
+P 8865 5010
+F 0 "C72" H 8890 5110 50  0000 L CNN
+F 1 "330 uF 10V" H 8675 4655 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 8903 4860 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10TPB330M/P16449CT-ND/4204231" H 8865 5010 50  0001 C CNN
+	1    8865 5010
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C75
+U 1 1 569D7B46
+P 9250 5010
+F 0 "C75" H 9275 5110 50  0000 L CNN
+F 1 "330 uF 10V" H 9060 4655 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 9288 4860 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10TPB330M/P16449CT-ND/4204231" H 9250 5010 50  0001 C CNN
+	1    9250 5010
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C78
+U 1 1 569D7B4C
+P 9660 5010
+F 0 "C78" H 9685 5110 50  0000 L CNN
+F 1 "330 uF 10V" H 9470 4655 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 9698 4860 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10TPB330M/P16449CT-ND/4204231" H 9660 5010 50  0001 C CNN
+	1    9660 5010
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C81
+U 1 1 569D7B52
+P 10060 5010
+F 0 "C81" H 10085 5110 50  0000 L CNN
+F 1 "330 uF 10V" H 9870 4655 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 10098 4860 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10TPB330M/P16449CT-ND/4204231" H 10060 5010 50  0001 C CNN
+	1    10060 5010
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C84
+U 1 1 569D7B58
+P 10470 5010
+F 0 "C84" H 10495 5110 50  0000 L CNN
+F 1 "330 uF 10V" H 10280 4655 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 10508 4860 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10TPB330M/P16449CT-ND/4204231" H 10470 5010 50  0001 C CNN
+	1    10470 5010
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8455 5160 8455 5285
+Wire Wire Line
+	8865 5160 8865 5285
+Wire Wire Line
+	9250 5160 9250 5285
+Wire Wire Line
+	9660 5160 9660 5285
+Wire Wire Line
+	10060 5160 10060 5285
+Wire Wire Line
+	10470 5285 10470 5160
+$Comp
+L CP C63
+U 1 1 569D7B65
+P 7645 5010
+F 0 "C63" H 7670 5110 50  0000 L CNN
+F 1 "330 uF 10V" H 7640 4665 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 7683 4860 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/10TPB330M/P16449CT-ND/4204231" H 7645 5010 50  0001 C CNN
+	1    7645 5010
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R101
+U 1 1 569D7B6B
+P 8725 6270
+F 0 "R101" V 8805 6270 50  0000 C CNN
+F 1 "100k" V 8725 6270 50  0000 C CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" V 8655 6270 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-3GEYJ104V/P100KGCT-ND/134878" H 8725 6270 50  0001 C CNN
+	1    8725 6270
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6865 6465 10545 6465
+Connection ~ 9125 6465
+Connection ~ 9215 6465
+Connection ~ 9295 6465
+Connection ~ 10375 6465
+Connection ~ 10465 6465
+Wire Wire Line
+	9975 6425 9975 6465
+Connection ~ 9975 6465
+Wire Wire Line
+	8725 6420 8725 6465
+Connection ~ 8725 6465
+Wire Wire Line
+	8725 6075 8725 6120
+Wire Wire Line
+	7370 5285 7370 5280
+Wire Wire Line
+	6865 4860 10470 4860
+Connection ~ 7645 4860
+Connection ~ 8055 4860
+Connection ~ 8455 4860
+Connection ~ 8865 4860
+Connection ~ 9250 4860
+Connection ~ 9660 4860
+Connection ~ 10060 4860
+$Comp
+L MCP1826 U24
+U 1 1 569D87AF
+P 3725 5425
+F 0 "U24" H 3725 5770 60  0000 C CNN
+F 1 "MCP1826" H 3720 5865 60  0000 C CNN
+F 2 "w_smd_trans:d-pak-5" H 3725 5425 60  0001 C CNN
+F 3 "" H 3725 5425 60  0000 C CNN
+	1    3725 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C57
+U 1 1 569D87B5
+P 3210 5050
+F 0 "C57" H 3235 5150 50  0000 L CNN
+F 1 "4.7 uF 10V" H 2665 5050 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:c_0603" H 3248 4900 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/GRM21BR71A475KA73K/490-6479-1-ND/3845676" H 3210 5050 50  0001 C CNN
+	1    3210 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C60
+U 1 1 569D87BB
+P 4260 5055
+F 0 "C60" H 4285 5155 50  0000 L CNN
+F 1 "1uF 10V" H 4285 4955 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:c_0603" H 4298 4905 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/C1608X7R1A105K080AC/445-5138-1-ND/2093753" H 4260 5055 50  0001 C CNN
+	1    4260 5055
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R89
+U 1 1 569D87C1
+P 3050 5340
+F 0 "R89" H 3310 5415 70  0000 L CNN
+F 1 "10k" H 3285 5325 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 3050 5340 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB103V/P10KDBCT-ND/1466076" H 3050 5340 60  0001 C CNN
+	1    3050 5340
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP4
+U 1 1 569D87C7
+P 3300 5480
+F 0 "JP4" H 3300 5560 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3310 5420 50  0001 C CNN
+F 2 "Resistors_SMD:R_0402" H 3300 5480 50  0001 C CNN
+F 3 "" H 3300 5480 50  0000 C CNN
+	1    3300 5480
+	0    -1   -1   0   
+$EndComp
+$Comp
+L POT-RESCUE-SPCInterfaceBoard-v01 RV4
+U 1 1 569D87CD
+P 4930 5340
+F 0 "RV4" H 4930 5240 50  0000 C CNN
+F 1 "POT 250k" H 4930 5340 50  0001 C CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:BOURNS3361P" H 4930 5340 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/3361P-1-254GLF/3361P-1-254GLFCT-ND/1817912" H 4930 5340 50  0001 C CNN
+	1    4930 5340
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R92
+U 1 1 569D87D3
+P 4225 5670
+F 0 "R92" H 4200 5485 70  0000 L CNN
+F 1 "50k" H 4170 5570 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 4225 5670 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PNM0603E5002BST5/PNM0603-50KBCT-ND/2120388" H 4225 5670 60  0001 C CNN
+	1    4225 5670
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R95
+U 1 1 569D87D9
+P 4420 5340
+F 0 "R95" H 4360 5255 70  0000 L CNN
+F 1 "200k" H 4300 5430 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 4420 5340 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB204V/P200KDBCT-ND/1466107" H 4420 5340 60  0001 C CNN
+	1    4420 5340
+	-1   0    0    1   
+$EndComp
+Text Label 4930 5190 0    60   ~ 0
+Vled3
+Text HLabel 2850 5200 0    60   Input ~ 0
++5Viso
+Text HLabel 3065 5650 0    60   Input ~ 0
+GNDiso
+Text HLabel 3055 4900 0    60   Input ~ 0
+GNDiso
+Wire Wire Line
+	4145 5205 4565 5205
+Wire Wire Line
+	2850 5200 3300 5200
+Connection ~ 3210 5200
+Wire Wire Line
+	3250 5340 3295 5340
+Wire Wire Line
+	2850 5340 2850 5200
+Wire Wire Line
+	3300 5340 3300 5380
+Wire Wire Line
+	3300 5580 3300 5870
+Wire Wire Line
+	3300 5650 3065 5650
+Wire Wire Line
+	3055 4900 4260 4900
+Wire Wire Line
+	4260 4900 4260 4905
+Connection ~ 3210 4900
+Wire Wire Line
+	4565 5205 4565 5190
+Wire Wire Line
+	4565 5190 4930 5190
+Connection ~ 4260 5205
+Wire Wire Line
+	4680 5340 4620 5340
+Wire Wire Line
+	4150 5340 4225 5340
+Wire Wire Line
+	4225 5340 4225 5470
+Wire Wire Line
+	3300 5870 4225 5870
+Connection ~ 3300 5650
+Wire Wire Line
+	3220 2555 3220 2595
+Connection ~ 3215 2555
+Connection ~ 3250 3930
+Wire Wire Line
+	3300 5340 3290 5340
+Connection ~ 3290 5340
+Connection ~ 4140 2555
+Connection ~ 4175 3930
+Connection ~ 4220 5340
+Wire Wire Line
+	4070 2860 4070 3085
+Connection ~ 4070 3085
+Wire Wire Line
+	4105 4235 4105 4460
+Connection ~ 4105 4460
+Wire Wire Line
+	4150 5645 4150 5870
+Connection ~ 4150 5870
+Text Label 7370 5280 2    60   ~ 0
+Vled2
+Wire Wire Line
+	8015 1040 8015 1165
+Text Label 3355 6590 2    60   ~ 0
+Vled3
+Wire Wire Line
+	3495 6595 3355 6595
+Wire Wire Line
+	3355 6595 3355 6590
+Text HLabel 3355 6695 0    60   Input ~ 0
+GNDiso
+$Comp
+L CONN_01X03 P12
+U 1 1 569E1D61
+P 3695 6695
+F 0 "P12" H 3695 6895 50  0000 C CNN
+F 1 "CONN_01X03" V 3795 6695 50  0000 C CNN
+F 2 "w_conn_mpt:mpt_0,5%2f3-2,54" H 3695 6695 50  0001 C CNN
+F 3 "" H 3695 6695 50  0000 C CNN
+	1    3695 6695
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3355 6695 3495 6695
+Text HLabel 3350 6795 0    60   Input ~ 0
+Drv4
+Wire Wire Line
+	3495 6795 3350 6795
+Wire Wire Line
+	7645 5285 7645 5160
+Connection ~ 7645 5285
+Connection ~ 8045 3290
+Wire Wire Line
+	8055 5160 8055 5285
+Connection ~ 8055 5285
+Wire Wire Line
+	10845 5485 10845 3490
+Connection ~ 10470 5485
+$EndSCHEMATC

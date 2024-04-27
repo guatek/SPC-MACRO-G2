@@ -1,0 +1,72 @@
+### Module positions - created on 3/11/2016 5:37:59 PM ###
+### Printed by Pcbnew version kicad 4.0.1-stable
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C1       22 uF            c_tant_X          212.7318   -49.7490     180.0    bottom
+C2       2.2 uF           c_0805            212.5517   -46.0466     180.0    bottom
+C3       470 pF           c_0603            222.3482   -51.4508     180.0    bottom
+C6       0.22 uF          c_0603            219.2367   -58.8168     180.0    bottom
+C7       10 uF            c_1210            206.2827   -65.4208     270.0    bottom
+C20      0.1 uF 25V       c_0603            233.6115   -51.7840       0.0    bottom
+C23      0.1 uF 25V       c_0603            238.4705   -66.6938     180.0    bottom
+C26      0.1 uF 25V       c_0603            230.4314   -66.7192     180.0    bottom
+C31      0.1 uF 25V       c_0603            241.6836   -66.6938     180.0    bottom
+C32      0.1 uF 25V       c_0603            233.5226   -66.7192     180.0    bottom
+C35      0.1 uF 25V       c_0603            228.9074   -68.5480       0.0    bottom
+C36      0.1 uF 25V       c_0603            248.6229   -51.5173       0.0    bottom
+C37      0.1 uF 25V       c_0603            253.6521   -66.5033     180.0    bottom
+C38      0.1 uF 25V       c_0603            245.4606   -66.4779     180.0    bottom
+C39      0.1 uF 25V       c_0603            256.9287   -66.5033     180.0    bottom
+C40      0.1 uF 25V       c_0603            248.5594   -66.4779     180.0    bottom
+C41      0.1 uF 25V       c_0603            243.9315   -68.3956       0.0    bottom
+C80      330 uF 10V       TantalC_SizeD_EI   98.7050   -30.9549     270.0    bottom
+C83      330 uF 10V       TantalC_SizeD_EI  136.9532  -124.9298     180.0    bottom
+C87      330 uF 10V       TantalC_SizeD_EI   37.5926  -112.0977       0.0    bottom
+C88      330 uF 10V       TantalC_SizeD_EI  113.7215   -35.7656     270.0    bottom
+C89      330 uF 10V       TantalC_SizeD_EI  127.1276  -134.7088      90.0    bottom
+C90      330 uF 10V       TantalC_SizeD_EI   33.1222   -98.1277       0.0    bottom
+C91      330 uF 10V       TantalC_SizeD_EI  126.9956   -43.3298     270.0    bottom
+C92      330 uF 10V       TantalC_SizeD_EI  113.6809  -142.6742      90.0    bottom
+C93      330 uF 10V       TantalC_SizeD_EI   32.5634   -81.9174       0.0    bottom
+C94      330 uF 10V       TantalC_SizeD_EI  137.0590   -55.7859     270.0    bottom
+C95      330 uF 10V       TantalC_SizeD_EI   99.3299  -146.7382      90.0    bottom
+C96      330 uF 10V       TantalC_SizeD_EI   36.7036   -67.4496       0.0    bottom
+C97      330 uF 10V       TantalC_SizeD_EI  145.4817   -66.7282     180.0    bottom
+C98      330 uF 10V       TantalC_SizeD_EI   83.2212  -146.6163      90.0    bottom
+C99      330 uF 10V       TantalC_SizeD_EI   44.1763   -54.3127       0.0    bottom
+C100     330 uF 10V       TantalC_SizeD_EI  149.9064   -81.5568     180.0    bottom
+C101     330 uF 10V       TantalC_SizeD_EI   68.6924  -142.4253      90.0    bottom
+C102     330 uF 10V       TantalC_SizeD_EI   55.6673   -44.1638     270.0    bottom
+C103     330 uF 10V       TantalC_SizeD_EI  149.8514   -96.8984     180.0    bottom
+C104     330 uF 10V       TantalC_SizeD_EI   55.2812  -134.3227      90.0    bottom
+C105     330 uF 10V       TantalC_SizeD_EI   68.7432   -36.8790     270.0    bottom
+C106     330 uF 10V       TantalC_SizeD_EI  144.6494  -111.8894     180.0    bottom
+C107     330 uF 10V       TantalC_SizeD_EI   45.7867  -125.5292       0.0    bottom
+C108     330 uF 10V       TantalC_SizeD_EI   83.3990   -31.4476     270.0    bottom
+D2       SCHDPAK          d-pak             195.5972   -61.5406     180.0    bottom
+D3       MBR140           SOD-123FL         209.8133   -57.0007       0.0    bottom
+D4       2 mA Grn         LED_0805          201.9012   -69.4213       0.0    bottom
+L1       10uH             c_2220            214.0297   -62.4084      90.0    bottom
+R10      16.2k            r_0603            219.2367   -51.5143       0.0    bottom
+R11      10k              r_0603            209.5949   -54.4353       0.0    bottom
+R12      40.2k            r_0603            209.6381   -52.7208       0.0    bottom
+R13      102k             r_0603            221.0884   -54.6258     180.0    bottom
+R18      536k             r_0603            221.0681   -53.0383     180.0    bottom
+R20      1.6k             r_0603            205.5842   -69.4213     180.0    bottom
+R102     100k             r_0603             80.3154   -18.7832      90.0    bottom
+R103     100k             r_0603            162.5352   -77.2134       0.0    bottom
+R104     100k             r_0603             19.5891   -97.8178     180.0    bottom
+R105     100k             r_0603            133.0865   -30.4418      45.0    bottom
+R106     100k             r_0603            100.2392  -160.6422     270.0    bottom
+R107     100k             r_0603             47.3970  -146.4690     225.0    bottom
+U4       LT3695           MSOP-16-1EP-VIA_  215.8106   -55.0094       0.0    bottom
+U14      ADM3251E         SOIC-20_7.5x12.8  235.9255   -59.0915     270.0    bottom
+U15      ADM3251E         SOIC-20_7.5x12.8  251.0004   -58.9518     270.0    bottom
+U31      HAT2168H         SOT-669_LFPAK-vi   86.1574   -19.9516      90.0    bottom
+U32      HAT2168H         SOT-669_LFPAK-vi  161.2043   -83.6751       0.0    bottom
+U33      HAT2168H         SOT-669_LFPAK-vi   20.7423   -91.7726     180.0    bottom
+U34      HAT2168H         SOT-669_LFPAK-vi  136.4748   -35.4202      45.0    bottom
+U35      HAT2168H         SOT-669_LFPAK-vi   94.3464  -159.2960     270.0    bottom
+U36      HAT2168H         SOT-669_LFPAK-vi   44.0849  -141.1198     225.0    bottom
+## End

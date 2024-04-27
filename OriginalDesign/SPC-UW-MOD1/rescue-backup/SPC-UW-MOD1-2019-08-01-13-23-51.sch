@@ -1,0 +1,779 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SCIP_Library
+LIBS:PowerControlBoard-cache
+LIBS:PowerControlBoard-rescue
+LIBS:SPC-UW-MOD1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RAZIMUM0 U2
+U 1 1 59057984
+P 2350 3700
+F 0 "U2" H 2350 4550 60  0000 C CNN
+F 1 "RAZIMUM0" H 2850 4550 60  0000 C CNN
+F 2 "SPIC_modules:RAZIMUM0" H 2200 3700 60  0001 C CNN
+F 3 "" H 2200 3700 60  0001 C CNN
+	1    2350 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3000 3800 3000
+Wire Wire Line
+	3350 3100 3800 3100
+Wire Wire Line
+	3350 3200 3800 3200
+Wire Wire Line
+	3350 3300 3800 3300
+Wire Wire Line
+	3350 4250 3800 4250
+Wire Wire Line
+	3350 4350 3800 4350
+Wire Wire Line
+	3350 3400 3800 3400
+Wire Wire Line
+	3350 3500 3800 3500
+Wire Wire Line
+	3350 3600 3800 3600
+Wire Wire Line
+	3350 3700 3800 3700
+Wire Wire Line
+	3350 3850 3800 3850
+Wire Wire Line
+	3350 3950 3800 3950
+Wire Wire Line
+	3350 4050 3800 4050
+Wire Wire Line
+	3350 4450 3800 4450
+Wire Wire Line
+	2450 6950 2450 7450
+$Comp
+L C_Small C1
+U 1 1 59058CC0
+P 1700 5650
+F 0 "C1" H 1500 5750 50  0000 L CNN
+F 1 "1 uF" H 1450 5650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 1700 5650 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/UMK212B7105KG-T/587-2910-1-ND/2649030" H 1700 5650 50  0001 C CNN
+F 4 "UMK212B7105KG-T" H 1700 5650 60  0001 C CNN "Part Number"
+	1    1700 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C2
+U 1 1 59058CC1
+P 1700 6050
+F 0 "C2" H 1500 6150 50  0000 L CNN
+F 1 "1 uF" H 1450 6050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 1700 6050 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/UMK212B7105KG-T/587-2910-1-ND/2649030" H 1700 6050 50  0001 C CNN
+F 4 "UMK212B7105KG-T" H 1700 6050 60  0001 C CNN "Part Number"
+	1    1700 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C5
+U 1 1 59058CC2
+P 3300 5650
+F 0 "C5" V 3050 5600 50  0000 L CNN
+F 1 "1 uF" V 3150 5550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3300 5650 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/UMK212B7105KG-T/587-2910-1-ND/2649030" H 3300 5650 50  0001 C CNN
+F 4 "UMK212B7105KG-T" H 3300 5650 60  0001 C CNN "Part Number"
+	1    3300 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C6
+U 1 1 59058CC3
+P 3300 5850
+F 0 "C6" V 3500 5850 50  0000 L CNN
+F 1 "1 uF" V 3400 5800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3300 5850 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/UMK212B7105KG-T/587-2910-1-ND/2649030" H 3300 5850 50  0001 C CNN
+F 4 "UMK212B7105KG-T" H 3300 5850 60  0001 C CNN "Part Number"
+	1    3300 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3450 5650 3400 5650
+Wire Wire Line
+	3200 5650 3150 5650
+Wire Wire Line
+	3150 5850 3200 5850
+Wire Wire Line
+	3400 5850 3450 5850
+Wire Wire Line
+	1750 5550 1700 5550
+Wire Wire Line
+	1700 5750 1750 5750
+Wire Wire Line
+	1700 5950 1750 5950
+Wire Wire Line
+	1700 6150 1750 6150
+Wire Wire Line
+	2450 5250 2450 5200
+Wire Wire Line
+	2450 5000 2450 4950
+Wire Wire Line
+	3150 6350 3450 6350
+Wire Wire Line
+	3250 6550 3150 6550
+Wire Wire Line
+	2450 7250 2550 7250
+Wire Wire Line
+	2000 5250 2700 5250
+$Comp
+L CONN_01X03 P1
+U 1 1 59058CC4
+P 3650 6900
+F 0 "P1" H 3650 7100 50  0000 C CNN
+F 1 "RS-232_1" V 3750 6900 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_NanoFit_2x02x2.50mm_Angled" H 3650 6900 50  0001 C CNN
+F 3 "" H 3650 6900 50  0000 C CNN
+	1    3650 6900
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3450 7000 2450 7000
+Connection ~ 2450 7000
+Wire Wire Line
+	3250 6550 3250 6900
+Wire Wire Line
+	3250 6900 3450 6900
+Wire Wire Line
+	3450 6350 3450 6800
+$Comp
+L LTC2855 U4
+U 1 1 59058CC5
+P 5150 7000
+F 0 "U4" H 5200 6550 60  0000 C CNN
+F 1 "LTC2855" H 5150 7450 60  0000 C CNN
+F 2 "Housings_SSOP:SSOP-16_3.9x4.9mm_Pitch0.635mm" H 5050 7000 60  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/linear-technology/LTC2855IGN-PBF/LTC2855IGN-PBF-ND/1745924" H 5050 7000 60  0001 C CNN
+F 4 "LTC2855IGN#PBF" H 5150 7000 60  0001 C CNN "Part Number"
+	1    5150 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C7
+U 1 1 59058CC6
+P 5800 6650
+F 0 "C7" V 5550 6600 50  0000 L CNN
+F 1 "100 nF" V 5650 6550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5800 6650 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R71H104KA93D/490-1519-1-ND/587854" H 5800 6650 50  0001 C CNN
+F 4 "GRM188R71H104KA93D" H 5800 6650 60  0001 C CNN "Part Number"
+	1    5800 6650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 6650 5700 6650
+Wire Wire Line
+	4650 6650 4750 6650
+Wire Wire Line
+	4750 6950 4650 6950
+NoConn ~ 5600 7150
+NoConn ~ 5600 7250
+NoConn ~ 5600 7350
+NoConn ~ 4750 7350
+NoConn ~ 4750 7250
+Wire Wire Line
+	5900 6650 6100 6650
+Wire Wire Line
+	5650 6250 5650 6650
+Connection ~ 5650 6650
+$Comp
+L CONN_01X04 P3
+U 1 1 59058CC7
+P 6550 6900
+F 0 "P3" H 6550 7150 50  0000 C CNN
+F 1 "RS-485" V 6650 6900 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_NanoFit_2x02x2.50mm_Angled" H 6550 6900 50  0001 C CNN
+F 3 "" H 6550 6900 50  0000 C CNN
+	1    6550 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 6750 6350 6750
+Wire Wire Line
+	6350 6850 5600 6850
+Wire Wire Line
+	5600 6950 6350 6950
+Wire Wire Line
+	6350 7050 5600 7050
+Wire Wire Line
+	4750 6750 4650 6750
+Wire Wire Line
+	4650 6850 4750 6850
+Wire Wire Line
+	4750 7050 4650 7050
+$Comp
+L CONN_01X03 P2
+U 1 1 59058CC8
+P 3650 7350
+F 0 "P2" H 3650 7550 50  0000 C CNN
+F 1 "RS-232_2" V 3750 7350 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_NanoFit_2x02x2.50mm_Angled" H 3650 7350 50  0001 C CNN
+F 3 "" H 3650 7350 50  0000 C CNN
+	1    3650 7350
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3150 6650 3150 7350
+Wire Wire Line
+	3150 7350 3450 7350
+Wire Wire Line
+	3150 6450 3350 6450
+Wire Wire Line
+	3350 6450 3350 7250
+Wire Wire Line
+	3350 7250 3450 7250
+Wire Wire Line
+	2450 7450 3450 7450
+Connection ~ 2450 7250
+Wire Wire Line
+	5650 6250 5450 6250
+$Comp
+L MAX3232E U3
+U 1 1 59058CCA
+P 2350 6050
+F 0 "U3" H 2800 6700 70  0000 L CNN
+F 1 "MAX3232E" H 1800 6750 70  0000 L CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 2350 6050 60  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/maxim-integrated/MAX3232ECUE-T/MAX3232ECUE-TCT-ND/4967917" H 2350 6050 60  0001 C CNN
+F 4 "MAX3232ECUE+T" H 2350 6050 60  0001 C CNN "Part Number"
+	1    2350 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C3
+U 1 1 59058CCB
+P 2000 5100
+F 0 "C3" H 2150 5150 50  0000 L CNN
+F 1 "100 nF" H 2050 5050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2000 5100 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R71H104KA93D/490-1519-1-ND/587854" H 2000 5100 50  0001 C CNN
+F 4 "GRM188R71H104KA93D" H 2000 5100 60  0001 C CNN "Part Number"
+	1    2000 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C4
+U 1 1 59058CCC
+P 2450 5100
+F 0 "C4" H 2600 5150 50  0000 L CNN
+F 1 "100 nF" H 2500 5050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2450 5100 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R71H104KA93D/490-1519-1-ND/587854" H 2450 5100 50  0001 C CNN
+F 4 "GRM188R71H104KA93D" H 2450 5100 60  0001 C CNN "Part Number"
+	1    2450 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2000 5250 2000 5200
+Connection ~ 2450 5250
+Wire Wire Line
+	2000 4950 2700 4950
+Wire Wire Line
+	2000 4950 2000 5000
+$Comp
+L RAZIMUM0 U1
+U 1 1 5905A560
+P 2350 1600
+F 0 "U1" H 2350 2450 60  0000 C CNN
+F 1 "RAZIMUM0" H 2850 2450 60  0000 C CNN
+F 2 "SPIC_modules:RAZIMUM0" H 2200 1600 60  0001 C CNN
+F 3 "" H 2200 1600 60  0001 C CNN
+	1    2350 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 900  1150 900 
+Wire Wire Line
+	1150 1100 1350 1100
+Wire Wire Line
+	1150 1300 1350 1300
+Wire Wire Line
+	1350 1400 1150 1400
+Wire Wire Line
+	3350 900  3800 900 
+Wire Wire Line
+	3350 1000 3800 1000
+Wire Wire Line
+	3350 1100 3800 1100
+Wire Wire Line
+	3350 1200 3800 1200
+Wire Wire Line
+	3350 1300 3800 1300
+Wire Wire Line
+	3350 1400 3800 1400
+Wire Wire Line
+	3350 1500 3800 1500
+Wire Wire Line
+	3350 1600 3800 1600
+Wire Wire Line
+	3350 1750 3800 1750
+Wire Wire Line
+	3350 1850 3800 1850
+Wire Wire Line
+	3350 1950 3800 1950
+Wire Wire Line
+	3350 2050 3800 2050
+Wire Wire Line
+	3350 2350 3800 2350
+$Sheet
+S 5650 2350 1650 1550
+U 5905AB9C
+F0 "Power" 60
+F1 "Power.sch" 60
+F2 "PGND" B L 5650 3750 60 
+F3 "ATX_ON" I L 5650 2850 60 
+F4 "3V3" I L 5650 2700 60 
+F5 "P1_EN" I L 5650 3000 60 
+F6 "P2_EN" I L 5650 3150 60 
+F7 "SCL" I L 5650 3350 60 
+F8 "SDA" I L 5650 3500 60 
+F9 "5V" O R 7300 2700 60 
+$EndSheet
+$Sheet
+S 9000 2350 1650 1550
+U 5905FF50
+F0 "Sensors" 60
+F1 "Sensors.sch" 60
+F2 "PGND" B L 9000 3750 60 
+F3 "BME_SDA" I L 9000 2850 60 
+F4 "BME_SCL" I L 9000 2950 60 
+F5 "3V3" I L 9000 2600 60 
+F6 "MTI-3_DRDY" I L 9000 3550 60 
+F7 "MTi-SCL" I L 9000 3450 60 
+F8 "MTi-SDA" I L 9000 3350 60 
+$EndSheet
+$Sheet
+S 7300 4500 2300 1700
+U 5906C092
+F0 "InputOutput" 60
+F1 "InputOutput.sch" 60
+F2 "5V" I L 7300 4650 60 
+F3 "~TRIG_1" I L 7300 4950 60 
+F4 "~TRIG_2" I L 7300 5050 60 
+F5 "~TRIG_3" I L 7300 5150 60 
+F6 "~TRIG_4" I L 7300 5250 60 
+F7 "3V3" I L 7300 4750 60 
+F8 "CON_3V3_TX" I R 9600 4950 60 
+F9 "CON_3V3_RX" I R 9600 5050 60 
+F10 "SIG_1_3V3" I L 7300 5650 60 
+F11 "SIG_2_3V3" I L 7300 5750 60 
+F12 "PGND" B L 7300 6050 60 
+F13 "~TRIG_5" I L 7300 5350 60 
+F14 "~TRIG_6" I L 7300 5450 60 
+F15 "SIG_3_3V3" I L 7300 5850 60 
+$EndSheet
+Text Label 1150 900  2    60   ~ 0
+5V
+Text Label 1150 1200 2    60   ~ 0
+3V3_RAZ1
+Text Label 1150 1100 2    60   ~ 0
+PGND
+Text Label 1150 1300 2    60   ~ 0
+SDA_RAZ1
+Text Label 1150 1400 2    60   ~ 0
+SCL_RAZ1
+Wire Wire Line
+	1350 1200 1150 1200
+Text Label 3800 1000 0    60   ~ 0
+3V3_RAZ1
+Text Label 3800 900  0    60   ~ 0
+PGND
+Text Label 3800 1200 0    60   ~ 0
+DI_485
+Text Label 3800 1100 0    60   ~ 0
+RO_485
+Text Label 3800 2150 0    60   ~ 0
+RX_2_RAZ1
+Text Label 3800 2250 0    60   ~ 0
+TX_2_RAZ1
+Wire Wire Line
+	3350 2150 3800 2150
+Wire Wire Line
+	3800 2250 3350 2250
+Text Label 3800 1400 0    60   ~ 0
+TX_1_RAZ1
+Text Label 3800 1300 0    60   ~ 0
+RX_1_RAZ1
+Text Label 3800 2050 0    60   ~ 0
+SYNC_RAZ1
+Text Label 1150 3000 2    60   ~ 0
+5V
+Text Label 1150 3200 2    60   ~ 0
+PGND
+Text Label 1150 3300 2    60   ~ 0
+3V3_RAZ2
+Text Label 1150 3400 2    60   ~ 0
+SDA_RAZ2
+Text Label 1150 3500 2    60   ~ 0
+SCL_RAZ2
+Text Label 3800 3000 0    60   ~ 0
+PGND
+Text Label 3800 3100 0    60   ~ 0
+3V3_RAZ2
+Text Label 3800 3200 0    60   ~ 0
+TX_1_RAZ1
+Text Label 3800 3300 0    60   ~ 0
+RX_1_RAZ1
+Text Label 3800 3400 0    60   ~ 0
+RX_1_RAZ2
+Text Label 3800 3500 0    60   ~ 0
+TX_1_RAZ2
+Text Label 3800 4250 0    60   ~ 0
+RX_2_RAZ2
+Text Label 3800 4350 0    60   ~ 0
+TX_2_RAZ2
+Text Label 3800 4150 0    60   ~ 0
+SYNC_RAZ1
+Text Label 3800 3850 0    60   ~ 0
+~TRIG_1_RAZ2
+Text Label 3800 3950 0    60   ~ 0
+~TRIG_2_RAZ2
+Text Label 3800 3600 0    60   ~ 0
+SIG_1_RAZ2
+Text Label 3800 3700 0    60   ~ 0
+SIG_2_RAZ2
+Wire Wire Line
+	1150 3000 1350 3000
+Wire Wire Line
+	1350 3200 1150 3200
+Wire Wire Line
+	1150 3300 1350 3300
+Wire Wire Line
+	1350 3400 1150 3400
+Wire Wire Line
+	1150 3500 1350 3500
+Text Label 5450 6250 2    60   ~ 0
+3V3
+Text Label 4650 6850 2    60   ~ 0
+3V3
+Text Label 4650 7050 2    60   ~ 0
+3V3
+Text Label 1600 6550 2    60   ~ 0
+RX_1_RAZ2
+Text Label 1600 6650 2    60   ~ 0
+RX_2_RAZ2
+Text Label 1600 6350 2    60   ~ 0
+TX_1_RAZ2
+Text Label 1600 6450 2    60   ~ 0
+TX_2_RAZ2
+Text Label 4650 6650 2    60   ~ 0
+RO_485
+Text Label 4650 6950 2    60   ~ 0
+DI_485
+Text Label 4650 6750 2    60   ~ 0
+PGND
+Text Label 4650 7150 2    60   ~ 0
+PGND
+Wire Wire Line
+	4750 7150 4650 7150
+Text Label 6100 6650 0    60   ~ 0
+PGND
+Text Label 2550 7250 0    60   ~ 0
+PGND
+Text Label 3450 5850 0    60   ~ 0
+PGND
+Text Label 3450 5650 0    60   ~ 0
+PGND
+Text Label 2700 4950 0    60   ~ 0
+PGND
+Text Label 2700 5250 0    60   ~ 0
+3V3
+Connection ~ 2450 4950
+Text Label 7600 2700 0    60   ~ 0
+5V
+Wire Wire Line
+	7300 2700 7600 2700
+$Comp
+L LTC4411 U5
+U 1 1 5909577A
+P 8100 1700
+F 0 "U5" H 7900 2100 60  0000 C CNN
+F 1 "LTC4411" H 8050 2500 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:TSOT-23-5" H 8100 1700 60  0001 C CNN
+F 3 "" H 8100 1700 60  0001 C CNN
+	1    8100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LTC4411 U6
+U 1 1 59095884
+P 8100 2250
+F 0 "U6" H 7900 2650 60  0000 C CNN
+F 1 "LTC4411" H 8050 3050 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:TSOT-23-5" H 8100 2250 60  0001 C CNN
+F 3 "" H 8100 2250 60  0001 C CNN
+	1    8100 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 1300 7700 1100
+Wire Wire Line
+	7700 1850 7700 1650
+Text Label 7300 1000 2    60   ~ 0
+3V3_RAZ1
+Text Label 7300 1550 2    60   ~ 0
+3V3_RAZ2
+Wire Wire Line
+	8400 1000 9050 1000
+Wire Wire Line
+	8600 1550 8400 1550
+Text Label 9050 1000 0    60   ~ 0
+3V3
+NoConn ~ 8400 1200
+NoConn ~ 8400 1750
+$Comp
+L C_Small C8
+U 1 1 59097980
+P 7550 1100
+F 0 "C8" H 7900 1100 50  0000 L CNN
+F 1 "1 uF" H 7650 1100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7550 1100 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/C1608X7R1A105K080AC/445-5138-1-ND/2093753" H 7550 1100 50  0001 C CNN
+F 4 "C1608X7R1A105K080AC" H 7550 1100 60  0001 C CNN "Part Number"
+	1    7550 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C10
+U 1 1 59097B87
+P 8950 1200
+F 0 "C10" H 9100 1250 50  0000 L CNN
+F 1 "4.7 uF" H 9000 1150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 8950 1200 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BR71A475KA73K/490-6479-1-ND/3845676" H 8950 1200 50  0001 C CNN
+F 4 "GRM21BR71A475KA73K" H 8950 1200 60  0001 C CNN "Part Number"
+	1    8950 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C9
+U 1 1 590980AA
+P 7550 1650
+F 0 "C9" H 7900 1650 50  0000 L CNN
+F 1 "1 uF" H 7650 1650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7550 1650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/C1608X7R1A105K080AC/445-5138-1-ND/2093753" H 7550 1650 50  0001 C CNN
+F 4 "C1608X7R1A105K080AC" H 7550 1650 60  0001 C CNN "Part Number"
+	1    7550 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8600 1000 8600 1550
+Connection ~ 8600 1000
+Wire Wire Line
+	8950 1100 8950 1000
+Connection ~ 8950 1000
+Text Label 9050 1450 0    60   ~ 0
+PGND
+Wire Wire Line
+	8950 1300 8950 1450
+Wire Wire Line
+	8950 1450 9050 1450
+Wire Wire Line
+	7300 1000 7700 1000
+Connection ~ 7550 1000
+Wire Wire Line
+	7300 1550 7700 1550
+Connection ~ 7550 1550
+Text Label 7300 1300 2    60   ~ 0
+PGND
+Text Label 7300 1850 2    60   ~ 0
+PGND
+Wire Wire Line
+	7550 1200 7550 1300
+Wire Wire Line
+	7300 1300 7700 1300
+Connection ~ 7700 1200
+Connection ~ 7550 1300
+Wire Wire Line
+	7550 1750 7550 1850
+Wire Wire Line
+	7300 1850 7700 1850
+Connection ~ 7550 1850
+Connection ~ 7700 1750
+Text Label 5450 3500 2    60   ~ 0
+SDA_RAZ1
+Text Label 8800 2850 2    60   ~ 0
+SDA_RAZ1
+Text Label 5450 3350 2    60   ~ 0
+SCL_RAZ1
+Text Label 8800 2950 2    60   ~ 0
+SCL_RAZ1
+Text Label 8800 3550 2    60   ~ 0
+SIG_3_RAZ2
+Text Label 8800 2600 2    60   ~ 0
+3V3
+Text Label 5450 2700 2    60   ~ 0
+3V3
+Text Label 5450 3750 2    60   ~ 0
+PGND
+Text Label 8800 3750 2    60   ~ 0
+PGND
+Wire Wire Line
+	8800 2600 9000 2600
+Wire Wire Line
+	8800 2850 9000 2850
+Wire Wire Line
+	9000 2950 8800 2950
+Wire Wire Line
+	8800 3350 9000 3350
+Wire Wire Line
+	9000 3450 8800 3450
+Wire Wire Line
+	8800 3550 9000 3550
+Wire Wire Line
+	9000 3750 8800 3750
+Wire Wire Line
+	5450 2700 5650 2700
+Wire Wire Line
+	5650 3350 5450 3350
+Wire Wire Line
+	5450 3500 5650 3500
+Wire Wire Line
+	5450 3750 5650 3750
+Text Label 7050 4650 2    60   ~ 0
+5V
+Text Label 7050 4750 2    60   ~ 0
+3V3
+Text Label 7050 5650 2    60   ~ 0
+SIG_1_RAZ2
+Text Label 7050 5750 2    60   ~ 0
+SIG_2_RAZ2
+Wire Wire Line
+	7050 5650 7300 5650
+Wire Wire Line
+	7050 5750 7300 5750
+Wire Wire Line
+	7050 4650 7300 4650
+Wire Wire Line
+	7300 4750 7050 4750
+Text Label 7050 6050 2    60   ~ 0
+PGND
+Wire Wire Line
+	7300 6050 7050 6050
+Text Label 3800 4050 0    60   ~ 0
+~TRIG_3_RAZ2
+Text Label 3800 1850 0    60   ~ 0
+ATX_ON
+Text Label 3800 1950 0    60   ~ 0
+P1_EN
+Text Label 3800 2350 0    60   ~ 0
+P2_EN
+Text Label 3800 1500 0    60   ~ 0
+~CAM_TRIG
+Text Label 3800 1600 0    60   ~ 0
+~STRB_TRIG1
+Text Label 3800 1750 0    60   ~ 0
+~STRB_TRIG2
+Text Label 5450 2850 2    60   ~ 0
+ATX_ON
+Text Label 5450 3000 2    60   ~ 0
+P1_EN
+Text Label 5450 3150 2    60   ~ 0
+P2_EN
+Wire Wire Line
+	5650 2850 5450 2850
+Wire Wire Line
+	5450 3000 5650 3000
+Wire Wire Line
+	5650 3150 5450 3150
+Text Label 7050 4950 2    60   ~ 0
+~TRIG_1_RAZ2
+Text Label 7050 5050 2    60   ~ 0
+~TRIG_2_RAZ2
+Text Label 7050 5150 2    60   ~ 0
+~TRIG_3_RAZ2
+Text Label 7050 5250 2    60   ~ 0
+~CAM_TRIG
+Text Label 7050 5350 2    60   ~ 0
+~STRB_TRIG1
+Text Label 7050 5450 2    60   ~ 0
+~STRB_TRIG2
+Wire Wire Line
+	7300 4950 7050 4950
+Wire Wire Line
+	7050 5050 7300 5050
+Wire Wire Line
+	7300 5150 7050 5150
+Wire Wire Line
+	7050 5250 7300 5250
+Wire Wire Line
+	7300 5350 7050 5350
+Wire Wire Line
+	7050 5450 7300 5450
+Text Label 8800 3350 2    60   ~ 0
+SDA_RAZ2
+Text Label 8800 3450 2    60   ~ 0
+SCL_RAZ2
+Text Label 9900 4950 0    60   ~ 0
+RX_2_RAZ1
+Text Label 9900 5050 0    60   ~ 0
+TX_2_RAZ1
+Wire Wire Line
+	9900 4950 9600 4950
+Wire Wire Line
+	9600 5050 9900 5050
+Wire Wire Line
+	3350 4150 3800 4150
+Text Label 3800 4450 0    60   ~ 0
+SIG_3_RAZ2
+Text Label 7050 5850 2    60   ~ 0
+SIG_3_RAZ2
+Wire Wire Line
+	7300 5850 7050 5850
+Wire Wire Line
+	1600 6350 1750 6350
+Wire Wire Line
+	1750 6450 1600 6450
+Wire Wire Line
+	1600 6550 1750 6550
+Wire Wire Line
+	1750 6650 1600 6650
+$EndSCHEMATC

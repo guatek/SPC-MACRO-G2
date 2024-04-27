@@ -1,0 +1,977 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SCIP_Library
+LIBS:PowerControlBoard-cache
+LIBS:PowerControlBoard-rescue
+LIBS:SPC-UW-MOD1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 10100 3750 3    60   ~ 0
+CON_RX
+$Comp
+L Resistor_small R36
+U 1 1 5906C87C
+P 9050 3500
+F 0 "R36" V 8950 3500 50  0000 C CNN
+F 1 "10K" V 9150 3500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8980 3500 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933" H 9050 3500 50  0001 C CNN
+	1    9050 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_small R38
+U 1 1 5906C883
+P 9750 3500
+F 0 "R38" V 9650 3500 50  0000 C CNN
+F 1 "10K" V 9850 3500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 9680 3500 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933" H 9750 3500 50  0001 C CNN
+	1    9750 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_small R40
+U 1 1 5906C88A
+P 10100 3500
+F 0 "R40" V 10000 3500 50  0000 C CNN
+F 1 "10K" V 10200 3500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 10030 3500 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933" H 10100 3500 50  0001 C CNN
+	1    10100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_small R42
+U 1 1 5906C891
+P 10750 3500
+F 0 "R42" V 10650 3500 50  0000 C CNN
+F 1 "10K" V 10850 3500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 10680 3500 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933" H 10750 3500 50  0001 C CNN
+	1    10750 3500
+	1    0    0    -1  
+$EndComp
+Text Label 9050 3200 1    60   ~ 0
+CON_VCC
+Text Label 10100 3250 1    60   ~ 0
+CON_VCC
+Wire Wire Line
+	9050 3750 9200 3750
+Wire Wire Line
+	9050 3250 9350 3250
+Wire Wire Line
+	9350 3250 9350 3450
+Wire Wire Line
+	10100 3250 10100 3400
+Wire Wire Line
+	10100 3600 10100 3750
+Wire Wire Line
+	10100 3750 10200 3750
+Wire Wire Line
+	10100 3350 10350 3350
+Wire Wire Line
+	10350 3350 10350 3450
+Connection ~ 10100 3350
+Wire Wire Line
+	10750 3750 10750 3600
+Wire Wire Line
+	10750 3250 10750 3400
+Wire Wire Line
+	9750 3250 9750 3400
+Wire Wire Line
+	9050 3200 9050 3400
+Connection ~ 9050 3250
+Text Label 9050 3750 3    60   ~ 0
+CON_TX
+Wire Wire Line
+	9050 3600 9050 3750
+Wire Wire Line
+	9750 3600 9750 3750
+$Comp
+L BSS138DW Q9
+U 2 1 5906C8F8
+P 10300 1500
+F 0 "Q9" H 10500 1575 50  0000 L CNN
+F 1 "BSS138DW" H 10500 1500 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6" H 10500 1425 50  0001 L CIN
+F 3 "" H 10300 1500 50  0000 L CNN
+	2    10300 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistor_small R27
+U 1 1 5906C906
+P 4700 1350
+F 0 "R27" V 4600 1350 50  0000 C CNN
+F 1 "10K" V 4800 1350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4630 1350 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933" H 4700 1350 50  0001 C CNN
+	1    4700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_small R28
+U 1 1 5906C90D
+P 5400 1350
+F 0 "R28" V 5300 1350 50  0000 C CNN
+F 1 "10K" V 5500 1350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5330 1350 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933" H 5400 1350 50  0001 C CNN
+	1    5400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_small R29
+U 1 1 5906C914
+P 5750 1350
+F 0 "R29" V 5650 1350 50  0000 C CNN
+F 1 "10K" V 5850 1350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5680 1350 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933" H 5750 1350 50  0001 C CNN
+	1    5750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_small R30
+U 1 1 5906C91B
+P 6400 1350
+F 0 "R30" V 6300 1350 50  0000 C CNN
+F 1 "10K" V 6500 1350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6330 1350 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933" H 6400 1350 50  0001 C CNN
+	1    6400 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 1600 4850 1600
+Wire Wire Line
+	4700 1100 5000 1100
+Wire Wire Line
+	5000 1100 5000 1300
+Wire Wire Line
+	5750 1100 5750 1250
+Wire Wire Line
+	5750 1450 5750 1750
+Wire Wire Line
+	5750 1600 5850 1600
+Wire Wire Line
+	5750 1200 6000 1200
+Wire Wire Line
+	6000 1200 6000 1300
+Connection ~ 5750 1200
+Wire Wire Line
+	6400 1450 6400 1750
+Wire Wire Line
+	6400 1100 6400 1250
+Wire Wire Line
+	5400 1100 5400 1250
+Wire Wire Line
+	4700 1050 4700 1250
+Wire Wire Line
+	5400 1600 5250 1600
+Connection ~ 4700 1100
+Wire Wire Line
+	4700 1450 4700 1750
+Wire Wire Line
+	5400 1450 5400 1750
+$Comp
+L BSS138DW Q7
+U 1 1 5906C935
+P 5050 1500
+F 0 "Q7" H 5250 1575 50  0000 L CNN
+F 1 "BSS138DW" H 5250 1500 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6" H 5250 1425 50  0001 L CIN
+F 3 "" H 5050 1500 50  0000 L CNN
+	1    5050 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L BSS138DW Q8
+U 1 1 5906C93C
+P 7200 1500
+F 0 "Q8" H 7400 1575 50  0000 L CNN
+F 1 "BSS138DW" H 7400 1500 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6" H 7400 1425 50  0001 L CIN
+F 3 "" H 7200 1500 50  0000 L CNN
+	1    7200 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistor_small R31
+U 1 1 5906C943
+P 6850 1350
+F 0 "R31" V 6750 1350 50  0000 C CNN
+F 1 "10K" V 6950 1350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6780 1350 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933" H 6850 1350 50  0001 C CNN
+	1    6850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_small R32
+U 1 1 5906C94A
+P 7550 1350
+F 0 "R32" V 7450 1350 50  0000 C CNN
+F 1 "10K" V 7650 1350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7480 1350 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933" H 7550 1350 50  0001 C CNN
+	1    7550 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_small R33
+U 1 1 5906C951
+P 7900 1350
+F 0 "R33" V 7800 1350 50  0000 C CNN
+F 1 "10K" V 8000 1350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7830 1350 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933" H 7900 1350 50  0001 C CNN
+	1    7900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_small R34
+U 1 1 5906C958
+P 8550 1350
+F 0 "R34" V 8450 1350 50  0000 C CNN
+F 1 "10K" V 8650 1350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8480 1350 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933" H 8550 1350 50  0001 C CNN
+	1    8550 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 1600 7000 1600
+Wire Wire Line
+	6850 1100 7150 1100
+Wire Wire Line
+	7150 1100 7150 1300
+Wire Wire Line
+	7900 1100 7900 1250
+Wire Wire Line
+	7900 1450 7900 1750
+Wire Wire Line
+	7900 1600 8000 1600
+Wire Wire Line
+	7900 1200 8150 1200
+Wire Wire Line
+	8150 1200 8150 1300
+Connection ~ 7900 1200
+Wire Wire Line
+	8400 1600 8550 1600
+Wire Wire Line
+	8550 1450 8550 1750
+Wire Wire Line
+	8550 1100 8550 1250
+Wire Wire Line
+	7550 1100 7550 1250
+Wire Wire Line
+	6850 1050 6850 1250
+Connection ~ 6850 1100
+Wire Wire Line
+	6850 1450 6850 1750
+Wire Wire Line
+	7550 1450 7550 1750
+Text HLabel 5400 1100 1    60   Input ~ 0
+5V
+Text HLabel 6400 1100 1    60   Input ~ 0
+5V
+Text HLabel 7550 1100 1    60   Input ~ 0
+5V
+Text HLabel 8550 1100 1    60   Input ~ 0
+5V
+$Comp
+L C_Small C32
+U 1 1 5906C9A2
+P 2000 900
+F 0 "C32" H 1850 1000 50  0000 L CNN
+F 1 "100 nF" H 1650 900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2000 900 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R71H104KA93D/490-1519-1-ND/587854" H 2000 900 50  0001 C CNN
+F 4 "GRM188R71H104KA93D" H 2000 900 60  0001 C CNN "Part Number"
+	1    2000 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 800  2000 800 
+Text Label 2000 1100 2    60   ~ 0
+PGND
+Wire Wire Line
+	2000 1000 2000 1100
+Text Label 2300 1550 0    60   ~ 0
+PGND
+Wire Wire Line
+	1700 1350 1900 1350
+Wire Wire Line
+	1700 1700 1900 1700
+Wire Wire Line
+	1900 2050 1700 2050
+Wire Wire Line
+	1700 2400 1900 2400
+Wire Wire Line
+	1900 1600 1700 1600
+Wire Wire Line
+	1900 1350 1900 1400
+Wire Wire Line
+	1900 2400 1900 2450
+Wire Wire Line
+	1900 2300 1700 2300
+Wire Wire Line
+	1900 2050 1900 2100
+Wire Wire Line
+	1900 1950 1700 1950
+Wire Wire Line
+	1900 1700 1900 1750
+$Comp
+L Resistor_small R21
+U 1 1 5906C9BC
+P 1900 1500
+F 0 "R21" V 1750 1500 50  0000 C CNN
+F 1 "100k" V 1820 1510 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1830 1500 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/vishay-beyschlag/MCT0603MD1003BP100/MCT0603-100K-MBCT-ND/2092146" H 1900 1490 50  0001 C CNN
+	1    1900 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Resistor_small R22
+U 1 1 5906C9C3
+P 1900 1850
+F 0 "R22" V 1750 1850 50  0000 C CNN
+F 1 "100k" V 1820 1860 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1830 1850 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/vishay-beyschlag/MCT0603MD1003BP100/MCT0603-100K-MBCT-ND/2092146" H 1900 1840 50  0001 C CNN
+	1    1900 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Resistor_small R23
+U 1 1 5906C9CA
+P 1900 2200
+F 0 "R23" V 1750 2200 50  0000 C CNN
+F 1 "100k" V 1820 2210 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1830 2200 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/vishay-beyschlag/MCT0603MD1003BP100/MCT0603-100K-MBCT-ND/2092146" H 1900 2190 50  0001 C CNN
+	1    1900 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Resistor_small R24
+U 1 1 5906C9D1
+P 1900 2550
+F 0 "R24" V 1750 2550 50  0000 C CNN
+F 1 "100k" V 1820 2560 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1830 2550 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/vishay-beyschlag/MCT0603MD1003BP100/MCT0603-100K-MBCT-ND/2092146" H 1900 2540 50  0001 C CNN
+	1    1900 2550
+	-1   0    0    1   
+$EndComp
+Text HLabel 2300 800  2    60   Input ~ 0
+5V
+Wire Wire Line
+	1900 2650 1700 2650
+Text Label 1700 2400 2    60   ~ 0
+~TRIG_4_5V
+Wire Wire Line
+	2800 1350 3050 1350
+Wire Wire Line
+	3050 1700 2800 1700
+Wire Wire Line
+	2800 2050 3050 2050
+Wire Wire Line
+	3050 2400 2800 2400
+Wire Wire Line
+	7550 1600 7400 1600
+Wire Wire Line
+	6400 1600 6250 1600
+Wire Wire Line
+	10750 3750 10600 3750
+Wire Wire Line
+	2300 1550 2300 1450
+Wire Wire Line
+	2300 1250 2300 800 
+Wire Wire Line
+	9750 3750 9600 3750
+Text Label 1700 1350 2    60   ~ 0
+~TRIG_1_5V
+Text Label 1700 1700 2    60   ~ 0
+~TRIG_2_5V
+Text Label 1700 2050 2    60   ~ 0
+~TRIG_3_5V
+Text Label 3050 1350 0    60   ~ 0
+TRIG_1_OUT
+Text Label 3050 1700 0    60   ~ 0
+TRIG_2_OUT
+Text Label 3050 2050 0    60   ~ 0
+TRIG_3_OUT
+Text Label 3050 2400 0    60   ~ 0
+TRIG_4_OUT
+Text HLabel 4700 1750 3    60   Input ~ 0
+~TRIG_1
+Text HLabel 5750 1750 3    60   Input ~ 0
+~TRIG_2
+Text HLabel 6850 1750 3    60   Input ~ 0
+~TRIG_3
+Text HLabel 7900 1750 3    60   Input ~ 0
+~TRIG_4
+Text Label 5400 1750 3    60   ~ 0
+~TRIG_1_5V
+Text Label 6400 1750 3    60   ~ 0
+~TRIG_2_5V
+Text Label 7550 1750 3    60   ~ 0
+~TRIG_3_5V
+Text Label 8550 1750 3    60   ~ 0
+~TRIG_4_5V
+Connection ~ 8550 1600
+Connection ~ 7900 1600
+Connection ~ 7550 1600
+Connection ~ 6850 1600
+Connection ~ 6400 1600
+Connection ~ 5400 1600
+Connection ~ 4700 1600
+Text HLabel 4700 1050 1    60   Input ~ 0
+3V3
+Text HLabel 5750 1100 1    60   Input ~ 0
+3V3
+Text HLabel 6850 1050 1    60   Input ~ 0
+3V3
+Text HLabel 7900 1100 1    60   Input ~ 0
+3V3
+$Comp
+L BSS138DW Q7
+U 2 1 59072281
+P 6050 1500
+F 0 "Q7" H 6250 1575 50  0000 L CNN
+F 1 "BSS138DW" H 6250 1500 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6" H 6250 1425 50  0001 L CIN
+F 3 "" H 6050 1500 50  0000 L CNN
+	2    6050 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L BSS138DW Q8
+U 2 1 59072358
+P 8200 1500
+F 0 "Q8" H 8400 1575 50  0000 L CNN
+F 1 "BSS138DW" H 8400 1500 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6" H 8400 1425 50  0001 L CIN
+F 3 "" H 8200 1500 50  0000 L CNN
+	2    8200 1500
+	0    1    1    0   
+$EndComp
+Connection ~ 5750 1600
+$Comp
+L BSS138DW Q10
+U 2 1 59073473
+P 10400 3650
+F 0 "Q10" H 10600 3725 50  0000 L CNN
+F 1 "BSS138DW" H 10600 3650 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6" H 10600 3575 50  0001 L CIN
+F 3 "" H 10400 3650 50  0000 L CNN
+	2    10400 3650
+	0    1    1    0   
+$EndComp
+Text HLabel 9750 3750 3    60   Input ~ 0
+CON_3V3_TX
+Text HLabel 10750 3750 3    60   Input ~ 0
+CON_3V3_RX
+Text HLabel 10750 3250 1    60   Input ~ 0
+3V3
+Text HLabel 9750 3250 1    60   Input ~ 0
+3V3
+Text Label 6100 4950 2    60   ~ 0
+TRIG_1_OUT
+Text Label 6100 5050 2    60   ~ 0
+TRIG_2_OUT
+Text Label 6100 5150 2    60   ~ 0
+TRIG_3_OUT
+Text Label 6100 5800 2    60   ~ 0
+TRIG_4_OUT
+Wire Wire Line
+	6350 4950 6100 4950
+Wire Wire Line
+	6100 5050 6350 5050
+Wire Wire Line
+	6350 5150 6100 5150
+Wire Wire Line
+	6100 5800 6350 5800
+Wire Wire Line
+	6350 6100 6100 6100
+Wire Wire Line
+	6100 6200 6350 6200
+Text Label 5500 1750 3    60   ~ 0
+~TRIG_1_IN
+Text Label 6500 1750 3    60   ~ 0
+~TRIG_2_IN
+Text Label 7650 1750 3    60   ~ 0
+~TRIG_3_IN
+Text Label 8650 1750 3    60   ~ 0
+~TRIG_4_IN
+Wire Wire Line
+	8550 1750 8650 1750
+Wire Wire Line
+	7550 1750 7650 1750
+Wire Wire Line
+	6400 1750 6500 1750
+Wire Wire Line
+	5400 1750 5500 1750
+$Comp
+L CONN_01X04 P15
+U 1 1 59078093
+P 10250 5100
+F 0 "P15" H 10250 5350 50  0000 C CNN
+F 1 "CON_UART" V 10350 5100 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_NanoFit_2x02x2.50mm_Angled" H 10250 5100 50  0001 C CNN
+F 3 "" H 10250 5100 50  0000 C CNN
+	1    10250 5100
+	1    0    0    -1  
+$EndComp
+Text Label 9650 4950 2    60   ~ 0
+CON_VCC
+Text Label 9650 5050 2    60   ~ 0
+CON_TX
+Text Label 9650 5150 2    60   ~ 0
+CON_RX
+Wire Wire Line
+	10050 4950 9650 4950
+Wire Wire Line
+	9650 5050 10050 5050
+Wire Wire Line
+	9650 5150 10050 5150
+Wire Wire Line
+	10050 5250 9650 5250
+$Comp
+L CONN_01X06 P14
+U 1 1 59079E27
+P 8650 5200
+F 0 "P14" H 8650 5550 50  0000 C CNN
+F 1 "SIG_3V3" V 8750 5200 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_NanoFit_2x03x2.50mm_Angled" H 8650 5200 50  0001 C CNN
+F 3 "" H 8650 5200 50  0000 C CNN
+	1    8650 5200
+	1    0    0    -1  
+$EndComp
+Text HLabel 8200 4950 0    60   Input ~ 0
+SIG_1_3V3
+Text HLabel 8200 5050 0    60   Input ~ 0
+SIG_2_3V3
+Wire Wire Line
+	8200 4950 8450 4950
+Wire Wire Line
+	8450 5050 8200 5050
+Wire Wire Line
+	8450 5350 8200 5350
+Wire Wire Line
+	8200 5450 8450 5450
+Text HLabel 8200 5250 0    60   Input ~ 0
+3V3
+Text HLabel 9650 5250 0    60   Input ~ 0
+PGND
+Text HLabel 1700 2650 0    60   Input ~ 0
+PGND
+Text HLabel 1700 2300 0    60   Input ~ 0
+PGND
+Text HLabel 1700 1950 0    60   Input ~ 0
+PGND
+Text HLabel 1700 1600 0    60   Input ~ 0
+PGND
+Text HLabel 6100 6200 0    60   Input ~ 0
+PGND
+Text HLabel 6100 6100 0    60   Input ~ 0
+5V
+Text HLabel 8200 5450 0    60   Input ~ 0
+PGND
+$Comp
+L BSS138DW Q9
+U 1 1 590A8238
+P 9300 1500
+F 0 "Q9" H 9500 1575 50  0000 L CNN
+F 1 "BSS138DW" H 9500 1500 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6" H 9500 1425 50  0001 L CIN
+F 3 "" H 9300 1500 50  0000 L CNN
+	1    9300 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistor_small R35
+U 1 1 590A823E
+P 8950 1350
+F 0 "R35" V 8850 1350 50  0000 C CNN
+F 1 "10K" V 9050 1350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8880 1350 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933" H 8950 1350 50  0001 C CNN
+	1    8950 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_small R37
+U 1 1 590A8244
+P 9650 1350
+F 0 "R37" V 9550 1350 50  0000 C CNN
+F 1 "10K" V 9750 1350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 9580 1350 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933" H 9650 1350 50  0001 C CNN
+	1    9650 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_small R39
+U 1 1 590A824A
+P 10000 1350
+F 0 "R39" V 9900 1350 50  0000 C CNN
+F 1 "10K" V 10100 1350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 9930 1350 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933" H 10000 1350 50  0001 C CNN
+	1    10000 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_small R41
+U 1 1 590A8250
+P 10650 1350
+F 0 "R41" V 10550 1350 50  0000 C CNN
+F 1 "10K" V 10750 1350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 10580 1350 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1002FP500/MCT0603-10.0K-CFCT-ND/2607933" H 10650 1350 50  0001 C CNN
+	1    10650 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 1600 9100 1600
+Wire Wire Line
+	8950 1100 9250 1100
+Wire Wire Line
+	9250 1100 9250 1300
+Wire Wire Line
+	10000 1100 10000 1250
+Wire Wire Line
+	10000 1450 10000 1750
+Wire Wire Line
+	10000 1600 10100 1600
+Wire Wire Line
+	10000 1200 10250 1200
+Wire Wire Line
+	10250 1200 10250 1300
+Connection ~ 10000 1200
+Wire Wire Line
+	10500 1600 10650 1600
+Wire Wire Line
+	10650 1450 10650 1750
+Wire Wire Line
+	10650 1100 10650 1250
+Wire Wire Line
+	9650 1100 9650 1250
+Wire Wire Line
+	8950 1050 8950 1250
+Connection ~ 8950 1100
+Wire Wire Line
+	8950 1450 8950 1750
+Wire Wire Line
+	9650 1450 9650 1750
+Text HLabel 9650 1100 1    60   Input ~ 0
+5V
+Text HLabel 10650 1100 1    60   Input ~ 0
+5V
+Wire Wire Line
+	9650 1600 9500 1600
+Text HLabel 8950 1750 3    60   Input ~ 0
+~TRIG_5
+Text HLabel 10000 1750 3    60   Input ~ 0
+~TRIG_6
+Text Label 9650 1750 3    60   ~ 0
+~TRIG_5_5V
+Text Label 10650 1750 3    60   ~ 0
+~TRIG_6_5V
+Connection ~ 10650 1600
+Connection ~ 10000 1600
+Connection ~ 9650 1600
+Connection ~ 8950 1600
+Text HLabel 8950 1050 1    60   Input ~ 0
+3V3
+Text HLabel 10000 1100 1    60   Input ~ 0
+3V3
+$Comp
+L BSS138DW Q10
+U 1 1 590A8274
+P 9400 3650
+F 0 "Q10" H 9600 3725 50  0000 L CNN
+F 1 "BSS138DW" H 9600 3650 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6" H 9600 3575 50  0001 L CIN
+F 3 "" H 9400 3650 50  0000 L CNN
+	1    9400 3650
+	0    1    1    0   
+$EndComp
+Text Label 9750 1750 3    60   ~ 0
+~TRIG_5_IN
+Text Label 10750 1750 3    60   ~ 0
+~TRIG_6_IN
+Wire Wire Line
+	10650 1750 10750 1750
+Wire Wire Line
+	9650 1750 9750 1750
+Text Label 6100 5900 2    60   ~ 0
+TRIG_5_OUT
+Text Label 6100 6000 2    60   ~ 0
+TRIG_6_OUT
+Wire Wire Line
+	6350 5900 6100 5900
+Wire Wire Line
+	6100 6000 6350 6000
+$Comp
+L CONN_01X05 P12
+U 1 1 590A8CA2
+P 6550 5150
+F 0 "P12" H 6550 5450 50  0000 C CNN
+F 1 "FLOW_MTR_OUT" V 6650 5150 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_NanoFit_2x03x2.50mm_Angled" H 6550 5150 50  0001 C CNN
+F 3 "" H 6550 5150 50  0000 C CNN
+	1    6550 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 5250 6100 5250
+Wire Wire Line
+	6100 5350 6350 5350
+Text HLabel 6100 5350 0    60   Input ~ 0
+PGND
+Text HLabel 6100 5250 0    60   Input ~ 0
+5V
+$Comp
+L CONN_01X05 P13
+U 1 1 590A8DA7
+P 6550 6000
+F 0 "P13" H 6550 6300 50  0000 C CNN
+F 1 "CAM_TRIG_OUT" V 6650 6000 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_NanoFit_2x03x2.50mm_Angled" H 6550 6000 50  0001 C CNN
+F 3 "" H 6550 6000 50  0000 C CNN
+	1    6550 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2750 1700 2750
+Wire Wire Line
+	1700 3100 1900 3100
+Wire Wire Line
+	1900 3100 1900 3150
+Wire Wire Line
+	1900 3000 1700 3000
+Wire Wire Line
+	1900 2750 1900 2800
+$Comp
+L Resistor_small R25
+U 1 1 590A916A
+P 1900 2900
+F 0 "R25" V 1750 2900 50  0000 C CNN
+F 1 "100k" V 1820 2910 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1830 2900 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/vishay-beyschlag/MCT0603MD1003BP100/MCT0603-100K-MBCT-ND/2092146" H 1900 2890 50  0001 C CNN
+	1    1900 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Resistor_small R26
+U 1 1 590A9170
+P 1900 3250
+F 0 "R26" V 1750 3250 50  0000 C CNN
+F 1 "100k" V 1820 3260 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1830 3250 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/vishay-beyschlag/MCT0603MD1003BP100/MCT0603-100K-MBCT-ND/2092146" H 1900 3240 50  0001 C CNN
+	1    1900 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 3350 1700 3350
+Text Label 1700 3100 2    60   ~ 0
+~TRIG_6_5V
+Wire Wire Line
+	2800 2750 3050 2750
+Wire Wire Line
+	3050 3100 2800 3100
+Text Label 1700 2750 2    60   ~ 0
+~TRIG_5_5V
+Text Label 3050 2750 0    60   ~ 0
+TRIG_5_OUT
+Text Label 3050 3100 0    60   ~ 0
+TRIG_6_OUT
+Text HLabel 1700 3350 0    60   Input ~ 0
+PGND
+Text HLabel 1700 3000 0    60   Input ~ 0
+PGND
+Text HLabel 8200 5350 0    60   Input ~ 0
+PGND
+Wire Wire Line
+	8200 5150 8450 5150
+Wire Wire Line
+	8450 5250 8200 5250
+Text HLabel 8200 5150 0    60   Input ~ 0
+SIG_3_3V3
+Wire Wire Line
+	4900 4950 4650 4950
+Wire Wire Line
+	4650 5050 4900 5050
+Wire Wire Line
+	4900 5150 4650 5150
+Wire Wire Line
+	4650 5800 4900 5800
+Wire Wire Line
+	4900 6100 4650 6100
+Wire Wire Line
+	4650 6200 4900 6200
+Text HLabel 4650 6200 0    60   Input ~ 0
+PGND
+Text HLabel 4650 6100 0    60   Input ~ 0
+5V
+Wire Wire Line
+	4900 5900 4650 5900
+Wire Wire Line
+	4650 6000 4900 6000
+$Comp
+L CONN_01X05 P10
+U 1 1 590E6DCF
+P 5100 5150
+F 0 "P10" H 5100 5450 50  0000 C CNN
+F 1 "FLOW_MTR_IN" V 5200 5150 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_NanoFit_2x03x2.50mm_Angled" H 5100 5150 50  0001 C CNN
+F 3 "" H 5100 5150 50  0000 C CNN
+	1    5100 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 5250 4650 5250
+Wire Wire Line
+	4650 5350 4900 5350
+Text HLabel 4650 5350 0    60   Input ~ 0
+PGND
+Text HLabel 4650 5250 0    60   Input ~ 0
+5V
+$Comp
+L CONN_01X05 P11
+U 1 1 590E6DD9
+P 5100 6000
+F 0 "P11" H 5100 6300 50  0000 C CNN
+F 1 "CAM_TRIG_IN" V 5200 6000 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_NanoFit_2x03x2.50mm_Angled" H 5100 6000 50  0001 C CNN
+F 3 "" H 5100 6000 50  0000 C CNN
+	1    5100 6000
+	1    0    0    -1  
+$EndComp
+Text Label 4650 4950 2    60   ~ 0
+~TRIG_1_IN
+Text Label 4650 5050 2    60   ~ 0
+~TRIG_2_IN
+Text Label 4650 5150 2    60   ~ 0
+~TRIG_3_IN
+Text Label 4650 5800 2    60   ~ 0
+~TRIG_4_IN
+Text Label 4650 5900 2    60   ~ 0
+~TRIG_5_IN
+Text Label 4650 6000 2    60   ~ 0
+~TRIG_6_IN
+$Comp
+L 74HCT04_NG U16
+U 1 1 590FA994
+P 2350 1350
+F 0 "U16" H 2500 1450 50  0000 C CNN
+F 1 "74HCT04_NG" H 2550 1250 50  0000 C CNN
+F 2 "" H 2350 1350 50  0001 C CNN
+F 3 "" H 2350 1350 50  0001 C CNN
+	1    2350 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HCT04_NG U16
+U 2 1 590FAA17
+P 2350 1700
+F 0 "U16" H 2500 1800 50  0000 C CNN
+F 1 "74HCT04_NG" H 2550 1600 50  0000 C CNN
+F 2 "" H 2350 1700 50  0001 C CNN
+F 3 "" H 2350 1700 50  0001 C CNN
+	2    2350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HCT04_NG U16
+U 3 1 590FAA7A
+P 2350 2050
+F 0 "U16" H 2500 2150 50  0000 C CNN
+F 1 "74HCT04_NG" H 2550 1950 50  0000 C CNN
+F 2 "" H 2350 2050 50  0001 C CNN
+F 3 "" H 2350 2050 50  0001 C CNN
+	3    2350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HCT04_NG U16
+U 4 1 590FAADF
+P 2350 2400
+F 0 "U16" H 2500 2500 50  0000 C CNN
+F 1 "74HCT04_NG" H 2550 2300 50  0000 C CNN
+F 2 "" H 2350 2400 50  0001 C CNN
+F 3 "" H 2350 2400 50  0001 C CNN
+	4    2350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HCT04_NG U16
+U 5 1 590FAB46
+P 2350 2750
+F 0 "U16" H 2500 2850 50  0000 C CNN
+F 1 "74HCT04_NG" H 2550 2650 50  0000 C CNN
+F 2 "" H 2350 2750 50  0001 C CNN
+F 3 "" H 2350 2750 50  0001 C CNN
+	5    2350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HCT04_NG U16
+U 6 1 590FABAF
+P 2350 3100
+F 0 "U16" H 2500 3200 50  0000 C CNN
+F 1 "74HCT04_NG" H 2550 3000 50  0000 C CNN
+F 2 "" H 2350 3100 50  0001 C CNN
+F 3 "" H 2350 3100 50  0001 C CNN
+	6    2350 3100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

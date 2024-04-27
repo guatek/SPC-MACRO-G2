@@ -1,0 +1,1771 @@
+EESchema Schematic File Version 2
+LIBS:SPCInterfaceBoard-v01-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SPCControlBoard-v02-cache
+LIBS:teensy_3.1
+LIBS:sfh6156
+LIBS:adm3251e
+LIBS:SparkFun-DigitalIC
+LIBS:SparkFun-DiscreteSemi
+LIBS:SparkFun-Sensors
+LIBS:ilq2
+LIBS:sn74lvc32
+LIBS:74lvc1g157
+LIBS:apxw003a0x3-srz
+LIBS:lt3965
+LIBS:acsl-6400
+LIBS:Cree LEDs
+LIBS:SPCInterfaceBoard-v01-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74LVC1G157 U3
+U 1 1 56935DD5
+P 1840 3065
+F 0 "U3" H 1840 3435 60  0000 C CNN
+F 1 "74LVC1G157" H 1840 2685 60  0000 C CNN
+F 2 "kicad-libraries-master:SC-74" H 1840 3065 60  0001 C CNN
+F 3 "" H 1840 3065 60  0000 C CNN
+	1    1840 3065
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LVC1G157 U2
+U 1 1 56935E38
+P 1805 1195
+F 0 "U2" H 1805 1565 60  0000 C CNN
+F 1 "74LVC1G157" H 1805 815 60  0000 C CNN
+F 2 "kicad-libraries-master:SC-74" H 1805 1195 60  0001 C CNN
+F 3 "" H 1805 1195 60  0000 C CNN
+	1    1805 1195
+	1    0    0    -1  
+$EndComp
+$Comp
+L LT3965 U4
+U 1 1 56949936
+P 2985 6725
+F 0 "U4" H 2985 6725 60  0000 C CNN
+F 1 "LT3695" H 2985 6835 60  0000 C CNN
+F 2 "Housings_SSOP:MSOP-16-1EP-VIA_3x4mm_Pitch0.5mm" H 2985 6725 60  0001 C CNN
+F 3 "" H 2985 6725 60  0000 C CNN
+	1    2985 6725
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R13
+U 1 1 56949A3F
+P 3625 7445
+F 0 "R13" H 3475 7504 70  0000 L CNN
+F 1 "102k" H 3475 7315 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 3625 7445 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB1023V/P102KDBCT-ND/3075724" H 3625 7445 60  0001 C CNN
+	1    3625 7445
+	0    1    1    0   
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R12
+U 1 1 56949AA4
+P 2175 6935
+F 0 "R12" H 2025 6994 70  0000 L CNN
+F 1 "40.2k" H 2025 6805 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 2175 6935 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB4022V/P40.2KDBCT-ND/3075957" H 2175 6935 60  0001 C CNN
+	1    2175 6935
+	0    1    1    0   
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R10
+U 1 1 56949B0D
+P 1755 6705
+F 0 "R10" H 1605 6764 70  0000 L CNN
+F 1 "16.2k" H 1605 6575 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 1755 6705 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB1622V/P16.2KDBCT-ND/3075817" H 1755 6705 60  0001 C CNN
+	1    1755 6705
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R18
+U 1 1 56949B61
+P 4055 7165
+F 0 "R18" H 3905 7224 70  0000 L CNN
+F 1 "536k" H 3905 7035 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 4055 7165 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-3EKF5363V/P536KHCT-ND/198434" H 4055 7165 60  0001 C CNN
+	1    4055 7165
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R11
+U 1 1 5694A406
+P 2095 6015
+F 0 "R11" H 1945 6074 70  0000 L CNN
+F 1 "10k" H 1945 5885 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 2095 6015 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB103V/P10KDBCT-ND/1466076" H 2095 6015 60  0001 C CNN
+	1    2095 6015
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D_Schottky D3
+U 1 1 5694A498
+P 4015 6675
+F 0 "D3" H 4015 6775 50  0000 C CNN
+F 1 "MBR140" H 4015 6575 50  0000 C CNN
+F 2 "kicad-libraries-master:SOD-123FL" H 4015 6675 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/MBRS140T3G/MBRS140T3GOSCT-ND/918002" H 4015 6675 50  0001 C CNN
+	1    4015 6675
+	0    1    1    0   
+$EndComp
+$Comp
+L INDUCTOR_SMALL L1
+U 1 1 5694AA01
+P 4375 6465
+F 0 "L1" H 4375 6565 50  0000 C CNN
+F 1 "10uH" H 4375 6415 50  0000 C CNN
+F 2 "w_smd_cap:c_2220" H 4375 6465 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/LQH55DN100M03L/490-9758-1-ND/4934955" H 4375 6465 50  0001 C CNN
+	1    4375 6465
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 5694ADA3
+P 1535 6015
+F 0 "C2" H 1560 6115 50  0000 L CNN
+F 1 "2.2 uF" H 1560 5915 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:c_0805" H 1573 5865 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/C2012X7R1H225K125AC/445-5968-1-ND/2444009" H 1535 6015 50  0001 C CNN
+	1    1535 6015
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C7
+U 1 1 5694AE59
+P 4625 7295
+F 0 "C7" H 4650 7395 50  0000 L CNN
+F 1 "10 uF" H 4650 7195 50  0000 L CNN
+F 2 "w_smd_cap:c_1210" H 4663 7145 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/GRM32ER71H106KA12L/490-6544-1-ND/3845741" H 4625 7295 50  0001 C CNN
+	1    4625 7295
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C1
+U 1 1 5694AEFF
+P 1185 5985
+F 0 "C1" H 1210 6085 50  0000 L CNN
+F 1 "22 uF" H 1210 5885 50  0000 L CNN
+F 2 "w_smd_cap:c_tant_X" H 1223 5835 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/T521X226M050ATE075/399-11720-2-ND/5131702" H 1185 5985 50  0001 C CNN
+	1    1185 5985
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 5694AFE8
+P 3855 6265
+F 0 "C6" H 3880 6365 50  0000 L CNN
+F 1 "0.22 uF" V 3715 6135 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:c_0603" H 3893 6115 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/C1608X7R1H224K080AB/445-7408-1-ND/2733480" H 3855 6265 50  0001 C CNN
+	1    3855 6265
+	0    1    1    0   
+$EndComp
+$Comp
+L C C3
+U 1 1 5694B0B6
+P 1755 7175
+F 0 "C3" H 1780 7275 50  0000 L CNN
+F 1 "470 pF" H 1780 7075 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:c_0603" H 1793 7025 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/GRM188R71H471KA01D/490-1489-1-ND/587829" H 1755 7175 50  0001 C CNN
+	1    1755 7175
+	1    0    0    -1  
+$EndComp
+Text Label 885  5755 2    60   ~ 0
+Vunreg
+Text Label 4715 5755 0    60   ~ 0
++5Viso
+Text Label 2985 7715 2    60   ~ 0
+GNDiso
+$Comp
+L ACSL-6400 U8
+U 1 1 5695941C
+P 8990 1795
+F 0 "U8" H 8990 2985 60  0000 C CNN
+F 1 "ACSL-6400" H 8990 535 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 8980 1565 60  0001 C CNN
+F 3 "" H 8980 1565 60  0000 C CNN
+	1    8990 1795
+	1    0    0    -1  
+$EndComp
+$Comp
+L ACSL-6400 U5
+U 1 1 56959651
+P 5090 1760
+F 0 "U5" H 5090 2950 60  0000 C CNN
+F 1 "ACSL-6400" H 5090 500 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 5080 1530 60  0001 C CNN
+F 3 "" H 5080 1530 60  0000 C CNN
+	1    5090 1760
+	1    0    0    -1  
+$EndComp
+$Comp
+L MMPQ2907A U6
+U 1 1 5695966C
+P 6510 4035
+F 0 "U6" H 6325 3760 60  0000 C CNN
+F 1 "MMPQ2907A" H 6090 3665 60  0000 C CNN
+F 2 "SMD_Packages:SO-16-N" H 6510 4035 60  0001 C CNN
+F 3 "" H 6510 4035 60  0000 C CNN
+	1    6510 4035
+	1    0    0    -1  
+$EndComp
+$Comp
+L MMPQ2907A U6
+U 2 1 56959783
+P 7765 4025
+F 0 "U6" H 7550 3820 60  0000 C CNN
+F 1 "MMPQ2907A" H 7355 3705 60  0000 C CNN
+F 2 "SMD_Packages:SO-16-N" H 7765 4025 60  0001 C CNN
+F 3 "" H 7765 4025 60  0000 C CNN
+	2    7765 4025
+	1    0    0    -1  
+$EndComp
+$Comp
+L MMPQ2907A U6
+U 3 1 569597F6
+P 9050 4030
+F 0 "U6" H 8835 3775 60  0000 C CNN
+F 1 "MMPQ2907A" H 8645 3675 60  0000 C CNN
+F 2 "SMD_Packages:SO-16-N" H 9050 4030 60  0001 C CNN
+F 3 "" H 9050 4030 60  0000 C CNN
+	3    9050 4030
+	1    0    0    -1  
+$EndComp
+$Comp
+L MMPQ2907A U6
+U 4 1 569598A1
+P 10475 4040
+F 0 "U6" H 10255 3800 60  0000 C CNN
+F 1 "MMPQ2907A" H 10075 3705 60  0000 C CNN
+F 2 "SMD_Packages:SO-16-N" H 10475 4040 60  0001 C CNN
+F 3 "" H 10475 4040 60  0000 C CNN
+	4    10475 4040
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R23
+U 1 1 5695E488
+P 6245 3835
+F 0 "R23" V 6355 3945 70  0000 L CNN
+F 1 "10k" V 6250 3930 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 6245 3835 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB103V/P10KDBCT-ND/1466076" H 6245 3835 60  0001 C CNN
+	1    6245 3835
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R21
+U 1 1 5695E756
+P 5980 4035
+F 0 "R21" H 5880 3915 70  0000 L CNN
+F 1 "1k" H 6030 3920 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 5980 4035 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB102V/P1.0KDBCT-ND/1466052" H 5980 4035 60  0001 C CNN
+	1    5980 4035
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R25
+U 1 1 5695F96C
+P 6640 4510
+F 0 "R25" V 6705 4610 70  0000 L CNN
+F 1 "10k" V 6600 4615 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 6640 4510 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB103V/P10KDBCT-ND/1466076" H 6640 4510 60  0001 C CNN
+	1    6640 4510
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R37
+U 1 1 56963A10
+P 7920 4500
+F 0 "R37" V 7985 4600 70  0000 L CNN
+F 1 "10k" V 7880 4605 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 7920 4500 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB103V/P10KDBCT-ND/1466076" H 7920 4500 60  0001 C CNN
+	1    7920 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R45
+U 1 1 56963EA1
+P 9195 4505
+F 0 "R45" V 9260 4605 70  0000 L CNN
+F 1 "10k" V 9155 4610 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 9195 4505 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB103V/P10KDBCT-ND/1466076" H 9195 4505 60  0001 C CNN
+	1    9195 4505
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R53
+U 1 1 569641C5
+P 10620 4515
+F 0 "R53" V 10685 4615 70  0000 L CNN
+F 1 "10k" V 10580 4620 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 10620 4515 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB103V/P10KDBCT-ND/1466076" H 10620 4515 60  0001 C CNN
+	1    10620 4515
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R29
+U 1 1 56964486
+P 7235 4025
+F 0 "R29" H 7135 3905 70  0000 L CNN
+F 1 "1k" H 7285 3910 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 7235 4025 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB102V/P1.0KDBCT-ND/1466052" H 7235 4025 60  0001 C CNN
+	1    7235 4025
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R41
+U 1 1 56964538
+P 8505 4030
+F 0 "R41" H 8405 3910 70  0000 L CNN
+F 1 "1k" H 8555 3915 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 8505 4030 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB102V/P1.0KDBCT-ND/1466052" H 8505 4030 60  0001 C CNN
+	1    8505 4030
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R49
+U 1 1 569645ED
+P 9955 4040
+F 0 "R49" H 9855 3920 70  0000 L CNN
+F 1 "1k" H 10005 3925 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 9955 4040 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB102V/P1.0KDBCT-ND/1466052" H 9955 4040 60  0001 C CNN
+	1    9955 4040
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R51
+U 1 1 569646A1
+P 10220 3840
+F 0 "R51" V 10330 3950 70  0000 L CNN
+F 1 "10k" V 10225 3935 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 10220 3840 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB103V/P10KDBCT-ND/1466076" H 10220 3840 60  0001 C CNN
+	1    10220 3840
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R43
+U 1 1 569647EA
+P 8780 3830
+F 0 "R43" V 8890 3940 70  0000 L CNN
+F 1 "10k" V 8785 3925 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 8780 3830 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB103V/P10KDBCT-ND/1466076" H 8780 3830 60  0001 C CNN
+	1    8780 3830
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R31
+U 1 1 569648D6
+P 7500 3825
+F 0 "R31" V 7610 3935 70  0000 L CNN
+F 1 "10k" V 7505 3920 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 7500 3825 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB103V/P10KDBCT-ND/1466076" H 7500 3825 60  0001 C CNN
+	1    7500 3825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MMPQ2907A U7
+U 1 1 569673FD
+P 6530 5470
+F 0 "U7" H 6345 5195 60  0000 C CNN
+F 1 "MMPQ2907A" H 6120 5110 60  0000 C CNN
+F 2 "SMD_Packages:SO-16-N" H 6530 5470 60  0001 C CNN
+F 3 "" H 6530 5470 60  0000 C CNN
+	1    6530 5470
+	1    0    0    -1  
+$EndComp
+$Comp
+L MMPQ2907A U7
+U 2 1 56967403
+P 7785 5460
+F 0 "U7" H 7570 5255 60  0000 C CNN
+F 1 "MMPQ2907A" H 7390 5155 60  0000 C CNN
+F 2 "SMD_Packages:SO-16-N" H 7785 5460 60  0001 C CNN
+F 3 "" H 7785 5460 60  0000 C CNN
+	2    7785 5460
+	1    0    0    -1  
+$EndComp
+$Comp
+L MMPQ2907A U7
+U 3 1 56967409
+P 9070 5465
+F 0 "U7" H 8855 5210 60  0000 C CNN
+F 1 "MMPQ2907A" H 8670 5125 60  0000 C CNN
+F 2 "SMD_Packages:SO-16-N" H 9070 5465 60  0001 C CNN
+F 3 "" H 9070 5465 60  0000 C CNN
+	3    9070 5465
+	1    0    0    -1  
+$EndComp
+$Comp
+L MMPQ2907A U7
+U 4 1 5696740F
+P 10495 5475
+F 0 "U7" H 10275 5235 60  0000 C CNN
+F 1 "MMPQ2907A" H 10085 5150 60  0000 C CNN
+F 2 "SMD_Packages:SO-16-N" H 10495 5475 60  0001 C CNN
+F 3 "" H 10495 5475 60  0000 C CNN
+	4    10495 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R24
+U 1 1 56967415
+P 6265 5270
+F 0 "R24" V 6375 5380 70  0000 L CNN
+F 1 "10k" V 6270 5365 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 6265 5270 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB103V/P10KDBCT-ND/1466076" H 6265 5270 60  0001 C CNN
+	1    6265 5270
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R22
+U 1 1 5696741B
+P 6000 5470
+F 0 "R22" H 5900 5350 70  0000 L CNN
+F 1 "1k" H 6050 5355 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 6000 5470 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB102V/P1.0KDBCT-ND/1466052" H 6000 5470 60  0001 C CNN
+	1    6000 5470
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R26
+U 1 1 56967421
+P 6660 5945
+F 0 "R26" V 6725 6045 70  0000 L CNN
+F 1 "10k" V 6620 6050 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 6660 5945 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB103V/P10KDBCT-ND/1466076" H 6660 5945 60  0001 C CNN
+	1    6660 5945
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R38
+U 1 1 5696742D
+P 7940 5935
+F 0 "R38" V 8005 6035 70  0000 L CNN
+F 1 "10k" V 7900 6040 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 7940 5935 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB103V/P10KDBCT-ND/1466076" H 7940 5935 60  0001 C CNN
+	1    7940 5935
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R46
+U 1 1 56967433
+P 9215 5940
+F 0 "R46" V 9280 6040 70  0000 L CNN
+F 1 "10k" V 9175 6045 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 9215 5940 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB103V/P10KDBCT-ND/1466076" H 9215 5940 60  0001 C CNN
+	1    9215 5940
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R54
+U 1 1 56967439
+P 10640 5950
+F 0 "R54" V 10705 6050 70  0000 L CNN
+F 1 "10k" V 10600 6055 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 10640 5950 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB103V/P10KDBCT-ND/1466076" H 10640 5950 60  0001 C CNN
+	1    10640 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R30
+U 1 1 5696743F
+P 7255 5460
+F 0 "R30" H 7155 5340 70  0000 L CNN
+F 1 "1k" H 7305 5345 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 7255 5460 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB102V/P1.0KDBCT-ND/1466052" H 7255 5460 60  0001 C CNN
+	1    7255 5460
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R42
+U 1 1 56967445
+P 8525 5465
+F 0 "R42" H 8425 5345 70  0000 L CNN
+F 1 "1k" H 8575 5350 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 8525 5465 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB102V/P1.0KDBCT-ND/1466052" H 8525 5465 60  0001 C CNN
+	1    8525 5465
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R50
+U 1 1 5696744B
+P 9975 5475
+F 0 "R50" H 9875 5355 70  0000 L CNN
+F 1 "1k" H 10025 5360 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 9975 5475 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB102V/P1.0KDBCT-ND/1466052" H 9975 5475 60  0001 C CNN
+	1    9975 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R52
+U 1 1 56967451
+P 10240 5275
+F 0 "R52" V 10350 5385 70  0000 L CNN
+F 1 "10k" V 10245 5370 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 10240 5275 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB103V/P10KDBCT-ND/1466076" H 10240 5275 60  0001 C CNN
+	1    10240 5275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R44
+U 1 1 56967457
+P 8800 5265
+F 0 "R44" V 8910 5375 70  0000 L CNN
+F 1 "10k" V 8805 5360 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 8800 5265 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB103V/P10KDBCT-ND/1466076" H 8800 5265 60  0001 C CNN
+	1    8800 5265
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R32
+U 1 1 5696745D
+P 7520 5260
+F 0 "R32" V 7630 5370 70  0000 L CNN
+F 1 "10k" V 7525 5355 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 7520 5260 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB103V/P10KDBCT-ND/1466076" H 7520 5260 60  0001 C CNN
+	1    7520 5260
+	0    -1   -1   0   
+$EndComp
+Text Label 6640 4710 2    60   ~ 0
+GNDiso
+Text Label 7920 4700 2    60   ~ 0
+GNDiso
+Text Label 9195 4705 2    60   ~ 0
+GNDiso
+Text Label 10620 4715 2    60   ~ 0
+GNDiso
+Text Label 10640 6150 2    60   ~ 0
+GNDiso
+Text Label 9215 6140 2    60   ~ 0
+GNDiso
+Text Label 7940 6135 2    60   ~ 0
+GNDiso
+Text Label 6660 6145 2    60   ~ 0
+GNDiso
+Text Label 6510 3635 0    60   ~ 0
++5Viso
+Text Label 7765 3625 0    60   ~ 0
++5Viso
+Text Label 9050 3630 0    60   ~ 0
++5Viso
+Text Label 10475 3640 0    60   ~ 0
++5Viso
+Text Label 10490 5075 0    60   ~ 0
++5Viso
+Text Label 9070 5065 0    60   ~ 0
++5Viso
+Text Label 7785 5060 0    60   ~ 0
++5Viso
+Text Label 6530 5070 0    60   ~ 0
++5Viso
+Text Label 6690 4310 0    60   ~ 0
+Out1
+Text Label 7965 4300 0    60   ~ 0
+Out2
+Text Label 9245 4305 0    60   ~ 0
+Out3
+Text Label 10680 4315 0    60   ~ 0
+Out4
+Text Label 6725 5745 0    60   ~ 0
+Out5
+Text Label 8010 5735 0    60   ~ 0
+Out6
+Text Label 9290 5740 0    60   ~ 0
+Out7
+Text Label 10705 5750 0    60   ~ 0
+Out8
+Text Label 6105 1110 0    60   ~ 0
++5Viso
+Text Label 6125 2460 0    60   ~ 0
++5Viso
+Text Label 9970 2495 0    60   ~ 0
++5Viso
+Text Label 10005 1145 0    60   ~ 0
++5Viso
+Text Label 10010 1395 0    60   ~ 0
+Vo12
+Text Label 10015 1595 0    60   ~ 0
+Vo22
+Text Label 10010 1995 0    60   ~ 0
+Vo32
+Text Label 10005 2245 0    60   ~ 0
+Vo42
+Text Label 6100 1360 0    60   ~ 0
+Vo11
+Text Label 6095 1560 0    60   ~ 0
+Vo21
+Text Label 6085 1960 0    60   ~ 0
+Vo31
+Text Label 6080 2210 0    60   ~ 0
+Vo41
+Text Label 6105 860  0    60   ~ 0
+GNDiso
+Text Label 6120 2710 0    60   ~ 0
+GNDiso
+Text Label 9975 2745 0    60   ~ 0
+GNDiso
+Text Label 10005 895  0    60   ~ 0
+GNDiso
+Text Label 5720 4035 2    60   ~ 0
+Vo11
+Text Label 6960 4025 2    60   ~ 0
+Vo21
+Text Label 8225 4030 2    60   ~ 0
+Vo31
+Text Label 9685 4040 2    60   ~ 0
+Vo41
+Text Label 5730 5470 2    60   ~ 0
+Vo12
+Text Label 6985 5460 2    60   ~ 0
+Vo22
+Text Label 8240 5465 2    60   ~ 0
+Vo32
+Text Label 9690 5475 2    60   ~ 0
+Vo42
+$Comp
+L C C9
+U 1 1 5697A5DC
+P 6580 980
+F 0 "C9" H 6605 1080 50  0000 L CNN
+F 1 "0.1 uF 25V" H 6605 880 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:c_0603" H 6618 830 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/GRM188R71E104KA01D/490-1524-1-ND/587865" H 6580 980 50  0001 C CNN
+	1    6580 980 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C8
+U 1 1 5697B5AD
+P 6560 2595
+F 0 "C8" H 6585 2695 50  0000 L CNN
+F 1 "0.1 uF 25V" H 6585 2495 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:c_0603" H 6598 2445 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/GRM188R71E104KA01D/490-1524-1-ND/587865" H 6560 2595 50  0001 C CNN
+	1    6560 2595
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C10
+U 1 1 5697BBFF
+P 10470 2625
+F 0 "C10" H 10495 2725 50  0000 L CNN
+F 1 "0.1 uF 25V" H 10495 2525 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:c_0603" H 10508 2475 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/GRM188R71E104KA01D/490-1524-1-ND/587865" H 10470 2625 50  0001 C CNN
+	1    10470 2625
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C11
+U 1 1 5697C607
+P 10585 995
+F 0 "C11" H 10610 1095 50  0000 L CNN
+F 1 "0.1 uF 25V" H 10610 895 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:c_0603" H 10623 845 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/GRM188R71E104KA01D/490-1524-1-ND/587865" H 10585 995 50  0001 C CNN
+	1    10585 995 
+	1    0    0    -1  
+$EndComp
+Text Label 1020 4055 2    60   ~ 0
+Out1
+Text Label 1020 4155 2    60   ~ 0
+Out2
+Text Label 1020 4255 2    60   ~ 0
+Out3
+Text Label 1020 4355 2    60   ~ 0
+Out4
+Text Label 1020 4455 2    60   ~ 0
+Out5
+Text Label 1020 4555 2    60   ~ 0
+Out6
+Text Label 1020 4655 2    60   ~ 0
+Out7
+Text Label 1020 4755 2    60   ~ 0
+Out8
+$Comp
+L CONN_01X04 P1
+U 1 1 5697F41B
+P 1730 5270
+F 0 "P1" H 1730 5520 50  0000 C CNN
+F 1 "CONN_01X04" V 1830 5270 50  0000 C CNN
+F 2 "w_conn_mpt:mpt_0,5%2f4-2,54" H 1730 5270 50  0001 C CNN
+F 3 "" H 1730 5270 50  0000 C CNN
+	1    1730 5270
+	-1   0    0    -1  
+$EndComp
+Text Label 2020 5120 0    60   ~ 0
+UnregIn
+Text Label 2020 5220 0    60   ~ 0
+UnregIn
+Text Label 2020 5320 0    60   ~ 0
+GNDiso
+Text Label 2020 5420 0    60   ~ 0
+GNDiso
+$Comp
+L RESISTOR0805-RES_0805 R2
+U 1 1 56981D96
+P 1460 4055
+F 0 "R2" H 2125 4050 70  0000 L CNN
+F 1 "PTC 29 mA" H 2305 4055 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 1460 4055 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PRG18BB470MB1RB/490-2472-1-ND/588686" H 1460 4055 60  0001 C CNN
+	1    1460 4055
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R3
+U 1 1 56982C9E
+P 1460 4155
+F 0 "R3" H 2125 4150 70  0000 L CNN
+F 1 "PTC 29 mA" H 2305 4155 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 1460 4155 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PRG18BB470MB1RB/490-2472-1-ND/588686" H 1460 4155 60  0001 C CNN
+	1    1460 4155
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R4
+U 1 1 56982FC3
+P 1460 4255
+F 0 "R4" H 2125 4250 70  0000 L CNN
+F 1 "PTC 29 mA" H 2305 4255 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 1460 4255 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PRG18BB470MB1RB/490-2472-1-ND/588686" H 1460 4255 60  0001 C CNN
+	1    1460 4255
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R5
+U 1 1 56983093
+P 1460 4355
+F 0 "R5" H 2125 4350 70  0000 L CNN
+F 1 "PTC 29 mA" H 2305 4355 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 1460 4355 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PRG18BB470MB1RB/490-2472-1-ND/588686" H 1460 4355 60  0001 C CNN
+	1    1460 4355
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R6
+U 1 1 56983164
+P 1460 4455
+F 0 "R6" H 2125 4450 70  0000 L CNN
+F 1 "PTC 29 mA" H 2305 4455 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 1460 4455 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PRG18BB470MB1RB/490-2472-1-ND/588686" H 1460 4455 60  0001 C CNN
+	1    1460 4455
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R7
+U 1 1 5698323C
+P 1460 4555
+F 0 "R7" H 2125 4550 70  0000 L CNN
+F 1 "PTC 29 mA" H 2305 4555 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 1460 4555 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PRG18BB470MB1RB/490-2472-1-ND/588686" H 1460 4555 60  0001 C CNN
+	1    1460 4555
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R8
+U 1 1 56983315
+P 1460 4655
+F 0 "R8" H 2125 4650 70  0000 L CNN
+F 1 "PTC 29 mA" H 2305 4655 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 1460 4655 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PRG18BB470MB1RB/490-2472-1-ND/588686" H 1460 4655 60  0001 C CNN
+	1    1460 4655
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R9
+U 1 1 56983625
+P 1460 4755
+F 0 "R9" H 2125 4750 70  0000 L CNN
+F 1 "PTC 29 mA" H 2305 4755 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 1460 4755 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PRG18BB470MB1RB/490-2472-1-ND/588686" H 1460 4755 60  0001 C CNN
+	1    1460 4755
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUSE F1
+U 1 1 56984FA6
+P 2935 5160
+F 0 "F1" H 3035 5210 50  0000 C CNN
+F 1 "FUSE" H 2835 5110 50  0000 C CNN
+F 2 "SMD_Packages:Fuse_SMD" H 2935 5160 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/01550900M/F1889-ND/2519878" H 2935 5160 50  0001 C CNN
+	1    2935 5160
+	1    0    0    -1  
+$EndComp
+$Comp
+L SCHDPAK D2
+U 1 1 5698526D
+P 3470 5160
+F 0 "D2" H 3470 5260 50  0000 C CNN
+F 1 "SCHDPAK" H 3470 5060 50  0000 C CNN
+F 2 "w_smd_trans:d-pak" H 3470 5160 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/MBRD5H100T4G/MBRD5H100T4GOSCT-ND/3462292" H 3470 5160 50  0001 C CNN
+	1    3470 5160
+	-1   0    0    1   
+$EndComp
+Text Label 3750 5160 0    60   ~ 0
+Vunreg
+Text HLabel 2930 3065 2    60   Input ~ 0
++3.3V
+Text HLabel 2925 1200 2    60   Input ~ 0
++3.3V
+$Comp
+L C C5
+U 1 1 5698891B
+P 2770 3245
+F 0 "C5" H 2795 3345 50  0000 L CNN
+F 1 "0.1 uF 25V" H 2795 3145 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:c_0603" H 2808 3095 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/GRM188R71E104KA01D/490-1524-1-ND/587865" H 2770 3245 50  0001 C CNN
+	1    2770 3245
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 56988A95
+P 2740 1415
+F 0 "C4" H 2765 1515 50  0000 L CNN
+F 1 "0.1 uF 25V" H 2765 1315 50  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:c_0603" H 2778 1265 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/GRM188R71E104KA01D/490-1524-1-ND/587865" H 2740 1415 50  0001 C CNN
+	1    2740 1415
+	1    0    0    -1  
+$EndComp
+Text HLabel 1015 1195 0    60   Input ~ 0
+GND
+Text HLabel 1050 3065 0    60   Input ~ 0
+GND
+Text Label 2470 3275 0    60   ~ 0
+T1
+Text Label 2460 1405 0    60   ~ 0
+T2
+$Comp
+L RESISTOR0805-RES_0805 R14
+U 1 1 5698E840
+P 3895 860
+F 0 "R14" H 3795 740 70  0000 L CNN
+F 1 "120" H 3945 745 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 3895 860 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB121V/P120DBCT-ND/1466030" H 3895 860 60  0001 C CIN
+	1    3895 860 
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R15
+U 1 1 5698EC5C
+P 3895 1360
+F 0 "R15" H 3795 1240 70  0000 L CNN
+F 1 "120" H 3945 1245 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 3895 1360 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB121V/P120DBCT-ND/1466030" H 3895 1360 60  0001 C CIN
+	1    3895 1360
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R17
+U 1 1 5698EF33
+P 3915 1960
+F 0 "R17" H 3815 1840 70  0000 L CNN
+F 1 "120" H 3965 1845 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 3915 1960 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB121V/P120DBCT-ND/1466030" H 3915 1960 60  0001 C CIN
+	1    3915 1960
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R16
+U 1 1 5698F067
+P 3910 2460
+F 0 "R16" H 3810 2340 70  0000 L CNN
+F 1 "120" H 3960 2345 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 3910 2460 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB121V/P120DBCT-ND/1466030" H 3910 2460 60  0001 C CIN
+	1    3910 2460
+	1    0    0    -1  
+$EndComp
+Text HLabel 4105 1110 0    60   Input ~ 0
+GND
+Text HLabel 4105 1560 0    60   Input ~ 0
+GND
+Text HLabel 4120 2210 0    60   Input ~ 0
+GND
+Text HLabel 4115 2710 0    60   Input ~ 0
+GND
+Text Label 3625 860  2    60   ~ 0
+T1
+Text Label 3630 1360 2    60   ~ 0
+T2
+$Comp
+L RESISTOR0805-RES_0805 R35
+U 1 1 569923B8
+P 7795 895
+F 0 "R35" H 7695 775 70  0000 L CNN
+F 1 "120" H 7845 780 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 7795 895 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB121V/P120DBCT-ND/1466030" H 7795 895 60  0001 C CIN
+	1    7795 895 
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R33
+U 1 1 56992880
+P 7790 1395
+F 0 "R33" H 7690 1275 70  0000 L CNN
+F 1 "120" H 7840 1280 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 7790 1395 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB121V/P120DBCT-ND/1466030" H 7790 1395 60  0001 C CIN
+	1    7790 1395
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R36
+U 1 1 56992BF9
+P 7795 1995
+F 0 "R36" H 7695 1875 70  0000 L CNN
+F 1 "120" H 7845 1880 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 7795 1995 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB121V/P120DBCT-ND/1466030" H 7795 1995 60  0001 C CIN
+	1    7795 1995
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R34
+U 1 1 56992ECD
+P 7790 2495
+F 0 "R34" H 7690 2375 70  0000 L CNN
+F 1 "120" H 7840 2380 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 7790 2495 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB121V/P120DBCT-ND/1466030" H 7790 2495 60  0001 C CIN
+	1    7790 2495
+	1    0    0    -1  
+$EndComp
+Text HLabel 8000 2745 0    60   Input ~ 0
+GND
+Text HLabel 8000 2245 0    60   Input ~ 0
+GND
+Text HLabel 8010 1595 0    60   Input ~ 0
+GND
+Text HLabel 8010 1145 0    60   Input ~ 0
+GND
+$Comp
+L CONN_01X04 P3
+U 1 1 569954CA
+P 4210 4560
+F 0 "P3" H 4210 4810 50  0000 C CNN
+F 1 "CONN_01X04" V 4310 4560 50  0000 C CNN
+F 2 "w_conn_mpt:mpt_0,5%2f4-2,54" H 4210 4560 50  0001 C CNN
+F 3 "" H 4210 4560 50  0000 C CNN
+	1    4210 4560
+	1    0    0    -1  
+$EndComp
+Text Label 3890 4410 2    60   ~ 0
+CAM_ISO_TRIG
+Text Label 3885 4610 2    60   ~ 0
+CAM_TRIG_1
+Text Label 3885 4710 2    60   ~ 0
+CAM_TRIG_2
+Text Label 1200 2855 2    60   ~ 0
+CAM_TRIG_1
+Text Label 1165 985  2    60   ~ 0
+CAM_TRIG_2
+Text HLabel 1200 3275 0    60   Input ~ 0
+MCU_TRIG_1
+Text HLabel 1175 1405 0    60   Input ~ 0
+MCU_TRIG_2
+$Comp
+L RESISTOR0805-RES_0805 R19
+U 1 1 5699AB62
+P 4125 3900
+F 0 "R19" V 4235 4010 70  0000 L CNN
+F 1 "10k" V 4130 3995 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 4125 3900 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERA-3AEB103V/P10KDBCT-ND/1466076" H 4125 3900 60  0001 C CNN
+	1    4125 3900
+	0    -1   -1   0   
+$EndComp
+Text HLabel 3910 3645 0    60   Input ~ 0
++3.3V
+Text HLabel 3885 4510 0    60   Input ~ 0
+GND
+Text Label 3900 4100 2    60   ~ 0
+CAM_ISO_TRIG
+Text Label 4190 4100 0    60   ~ 0
+TRIG_SELECT
+Text Label 2465 995  0    60   ~ 0
+TRIG_SELECT
+Text Label 2480 2865 0    60   ~ 0
+TRIG_SELECT
+Text HLabel 3665 1960 0    60   Input ~ 0
+MCU_TRIG_3
+Text HLabel 3660 2460 0    60   Input ~ 0
+MCU_TRIG_4
+Text HLabel 7550 895  0    60   Input ~ 0
+MCU_TRIG_5
+Text HLabel 7540 1395 0    60   Input ~ 0
+MCU_TRIG_6
+Text HLabel 7545 1995 0    60   Input ~ 0
+MCU_TRIG_7
+Text HLabel 7540 2495 0    60   Input ~ 0
+MCU_TRIG_8
+Text HLabel 2740 1645 3    60   Input ~ 0
+GND
+Text HLabel 2770 3450 3    60   Input ~ 0
+GND
+$Comp
+L RESISTOR0805-RES_0805 R27
+U 1 1 56986F09
+P 6975 4510
+F 0 "R27" V 7025 4330 70  0000 L CNN
+F 1 "1.6k" V 6925 4235 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 6975 4510 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/RC0603FR-071K6L/311-1.60KHRCT-ND/729815" H 6975 4510 60  0001 C CNN
+	1    6975 4510
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	885  5755 2685 5755
+Wire Wire Line
+	2685 5755 2685 5845
+Wire Wire Line
+	1535 5755 1535 5865
+Wire Wire Line
+	1535 6165 1535 7555
+Wire Wire Line
+	1185 7555 3375 7555
+Wire Wire Line
+	2095 5815 2095 5755
+Connection ~ 2095 5755
+Wire Wire Line
+	2095 6215 2095 6265
+Wire Wire Line
+	2095 6265 2325 6265
+Wire Wire Line
+	2325 6485 1755 6485
+Wire Wire Line
+	1755 6485 1755 6505
+Wire Wire Line
+	1755 6905 1755 7025
+Wire Wire Line
+	1755 7325 1755 7555
+Connection ~ 1755 7555
+Wire Wire Line
+	2325 6725 2175 6725
+Wire Wire Line
+	2175 6725 2175 6735
+Wire Wire Line
+	2175 7135 2175 7555
+Connection ~ 2175 7555
+Wire Wire Line
+	2325 7165 2325 7555
+Connection ~ 2325 7555
+Connection ~ 1535 5755
+Wire Wire Line
+	1185 5835 1185 5755
+Connection ~ 1185 5755
+Wire Wire Line
+	1185 6135 1185 7555
+Connection ~ 1535 7555
+Wire Wire Line
+	4015 6265 4015 6525
+Wire Wire Line
+	3625 6465 4125 6465
+Connection ~ 4015 6465
+Wire Wire Line
+	4015 6265 4005 6265
+Wire Wire Line
+	3705 6265 3625 6265
+Wire Wire Line
+	3625 6945 4015 6945
+Wire Wire Line
+	4015 6945 4015 6825
+Wire Wire Line
+	3855 7165 3625 7165
+Wire Wire Line
+	3625 7165 3625 7245
+Wire Wire Line
+	3375 7645 5125 7645
+Wire Wire Line
+	3375 7555 3375 7645
+Connection ~ 2855 7555
+Connection ~ 3125 7555
+Connection ~ 2985 7555
+Wire Wire Line
+	4625 5755 4625 7165
+Wire Wire Line
+	4625 7165 4255 7165
+Connection ~ 4625 7145
+Wire Wire Line
+	4625 7645 4625 7445
+Connection ~ 3625 7645
+Wire Wire Line
+	3275 5845 3275 5755
+Wire Wire Line
+	3275 5755 5125 5755
+Connection ~ 4625 6465
+Connection ~ 4625 5755
+Wire Wire Line
+	2985 7555 2985 7715
+Wire Wire Line
+	6180 4035 6310 4035
+Connection ~ 6245 4035
+Wire Wire Line
+	6245 3635 6510 3635
+Wire Wire Line
+	6510 3635 6510 3760
+Wire Wire Line
+	6510 4310 6975 4310
+Connection ~ 6585 4310
+Wire Wire Line
+	7435 4025 7565 4025
+Connection ~ 7500 4025
+Wire Wire Line
+	7765 4300 8255 4300
+Connection ~ 7840 4300
+Wire Wire Line
+	7500 3625 7765 3625
+Wire Wire Line
+	7765 3625 7765 3750
+Wire Wire Line
+	8705 4030 8850 4030
+Connection ~ 8780 4030
+Wire Wire Line
+	9050 4305 9530 4305
+Connection ~ 9125 4305
+Wire Wire Line
+	10155 4040 10275 4040
+Connection ~ 10220 4040
+Wire Wire Line
+	10475 4315 10955 4315
+Connection ~ 10550 4315
+Wire Wire Line
+	8780 3630 9050 3630
+Wire Wire Line
+	9050 3630 9050 3755
+Wire Wire Line
+	10220 3640 10475 3640
+Wire Wire Line
+	10475 3640 10475 3765
+Wire Wire Line
+	6200 5470 6330 5470
+Connection ~ 6265 5470
+Wire Wire Line
+	6265 5070 6530 5070
+Wire Wire Line
+	6530 5070 6530 5195
+Wire Wire Line
+	6530 5745 6995 5745
+Connection ~ 6605 5745
+Wire Wire Line
+	7455 5460 7585 5460
+Connection ~ 7520 5460
+Wire Wire Line
+	7785 5735 8275 5735
+Connection ~ 7860 5735
+Wire Wire Line
+	7520 5060 7785 5060
+Wire Wire Line
+	7785 5060 7785 5185
+Wire Wire Line
+	8725 5465 8870 5465
+Connection ~ 8800 5465
+Wire Wire Line
+	9070 5740 9550 5740
+Connection ~ 9145 5740
+Wire Wire Line
+	10175 5475 10295 5475
+Connection ~ 10240 5475
+Wire Wire Line
+	10495 5750 10975 5750
+Connection ~ 10570 5750
+Wire Wire Line
+	8800 5065 9070 5065
+Wire Wire Line
+	9070 5065 9070 5190
+Wire Wire Line
+	10240 5075 10495 5075
+Wire Wire Line
+	10495 5075 10495 5200
+Connection ~ 6640 4310
+Connection ~ 7920 4300
+Connection ~ 9195 4305
+Connection ~ 10620 4315
+Connection ~ 6660 5745
+Connection ~ 7940 5735
+Connection ~ 9215 5740
+Connection ~ 10640 5750
+Wire Wire Line
+	5940 1110 6105 1110
+Wire Wire Line
+	5940 2460 6505 2460
+Wire Wire Line
+	9840 2495 10410 2495
+Wire Wire Line
+	9840 1145 10585 1145
+Wire Wire Line
+	9840 2245 10005 2245
+Wire Wire Line
+	10010 1995 9840 1995
+Wire Wire Line
+	9840 1595 10015 1595
+Wire Wire Line
+	9840 1395 10010 1395
+Wire Wire Line
+	5940 1360 6100 1360
+Wire Wire Line
+	5940 1560 6095 1560
+Wire Wire Line
+	5940 1960 6085 1960
+Wire Wire Line
+	5940 2210 6080 2210
+Wire Wire Line
+	5940 860  6520 860 
+Wire Wire Line
+	6120 2710 5940 2710
+Wire Wire Line
+	9975 2745 9840 2745
+Wire Wire Line
+	9840 895  10415 895 
+Wire Wire Line
+	5720 4035 5780 4035
+Wire Wire Line
+	6960 4025 7035 4025
+Wire Wire Line
+	8225 4030 8305 4030
+Wire Wire Line
+	9685 4040 9755 4040
+Wire Wire Line
+	5730 5470 5800 5470
+Wire Wire Line
+	6985 5460 7055 5460
+Wire Wire Line
+	8240 5465 8325 5465
+Wire Wire Line
+	9690 5475 9775 5475
+Wire Wire Line
+	6520 860  6520 835 
+Wire Wire Line
+	6520 835  6580 835 
+Wire Wire Line
+	6580 835  6580 830 
+Wire Wire Line
+	6105 1110 6105 1130
+Wire Wire Line
+	6105 1130 6580 1130
+Wire Wire Line
+	6505 2460 6505 2445
+Wire Wire Line
+	6505 2445 6560 2445
+Wire Wire Line
+	6120 2710 6120 2745
+Wire Wire Line
+	6120 2745 6560 2745
+Wire Wire Line
+	10410 2495 10410 2475
+Wire Wire Line
+	10410 2475 10470 2475
+Wire Wire Line
+	9975 2745 9975 2770
+Wire Wire Line
+	9975 2770 10450 2770
+Wire Wire Line
+	10450 2770 10450 2775
+Wire Wire Line
+	10450 2775 10470 2775
+Wire Wire Line
+	10415 895  10415 845 
+Wire Wire Line
+	10415 845  10585 845 
+Wire Wire Line
+	1020 4755 1260 4755
+Wire Wire Line
+	1020 4655 1260 4655
+Wire Wire Line
+	1020 4555 1260 4555
+Wire Wire Line
+	1020 4455 1260 4455
+Wire Wire Line
+	1020 4355 1260 4355
+Wire Wire Line
+	1020 4255 1260 4255
+Wire Wire Line
+	1020 4155 1260 4155
+Wire Wire Line
+	1020 4055 1260 4055
+Wire Wire Line
+	1930 5120 2685 5120
+Wire Wire Line
+	2020 5220 1930 5220
+Wire Wire Line
+	2020 5320 1930 5320
+Wire Wire Line
+	2020 5420 1930 5420
+Wire Wire Line
+	1660 4455 1765 4455
+Wire Wire Line
+	1660 4555 1765 4555
+Wire Wire Line
+	1660 4655 1765 4655
+Wire Wire Line
+	1660 4755 1765 4755
+Wire Wire Line
+	1660 4055 1765 4055
+Wire Wire Line
+	1660 4155 1765 4155
+Wire Wire Line
+	1660 4255 1765 4255
+Wire Wire Line
+	1660 4355 1765 4355
+Wire Wire Line
+	2685 5120 2685 5220
+Wire Wire Line
+	2685 5220 2015 5220
+Connection ~ 2685 5160
+Connection ~ 2015 5220
+Wire Wire Line
+	3270 5160 3185 5160
+Wire Wire Line
+	3270 5110 3270 5210
+Connection ~ 3270 5160
+Wire Wire Line
+	3750 5160 3670 5160
+Wire Wire Line
+	2770 3065 2770 3095
+Connection ~ 2770 3065
+Wire Wire Line
+	2925 1200 2740 1200
+Wire Wire Line
+	2740 1195 2740 1265
+Connection ~ 2740 1200
+Wire Wire Line
+	1015 1195 1225 1195
+Wire Wire Line
+	1050 3065 1260 3065
+Wire Wire Line
+	2355 1195 2740 1195
+Wire Wire Line
+	2390 3065 2930 3065
+Wire Wire Line
+	2355 1405 2460 1405
+Wire Wire Line
+	2390 3275 2470 3275
+Wire Wire Line
+	4095 860  4190 860 
+Wire Wire Line
+	4105 1110 4190 1110
+Wire Wire Line
+	4095 1360 4190 1360
+Wire Wire Line
+	4105 1560 4190 1560
+Wire Wire Line
+	4115 1960 4190 1960
+Wire Wire Line
+	4120 2210 4190 2210
+Wire Wire Line
+	4110 2460 4190 2460
+Wire Wire Line
+	4115 2710 4190 2710
+Wire Wire Line
+	3695 860  3625 860 
+Wire Wire Line
+	3630 1360 3695 1360
+Wire Wire Line
+	8000 2245 8090 2245
+Wire Wire Line
+	7995 1995 8090 1995
+Wire Wire Line
+	7990 2495 8090 2495
+Wire Wire Line
+	8000 2745 8090 2745
+Wire Wire Line
+	8010 1595 8090 1595
+Wire Wire Line
+	7990 1395 8090 1395
+Wire Wire Line
+	8010 1145 8090 1145
+Wire Wire Line
+	7995 895  8090 895 
+Wire Wire Line
+	3890 4410 4010 4410
+Wire Wire Line
+	4010 4510 3885 4510
+Wire Wire Line
+	3885 4610 4010 4610
+Wire Wire Line
+	3885 4710 4010 4710
+Wire Wire Line
+	1260 2855 1200 2855
+Wire Wire Line
+	1200 3275 1260 3275
+Wire Wire Line
+	1165 985  1225 985 
+Wire Wire Line
+	1175 1405 1225 1405
+Wire Wire Line
+	3910 3645 4125 3645
+Wire Wire Line
+	4125 3645 4125 3700
+Wire Wire Line
+	3900 4100 4190 4100
+Connection ~ 4125 4100
+Wire Wire Line
+	2465 995  2355 995 
+Wire Wire Line
+	2480 2865 2390 2865
+Wire Wire Line
+	3665 1960 3715 1960
+Wire Wire Line
+	3660 2460 3710 2460
+Wire Wire Line
+	7545 1995 7595 1995
+Wire Wire Line
+	7540 2495 7590 2495
+Wire Wire Line
+	7550 895  7595 895 
+Wire Wire Line
+	7540 1395 7590 1395
+Wire Wire Line
+	2770 3450 2770 3395
+Wire Wire Line
+	2740 1645 2740 1565
+Wire Wire Line
+	6975 4710 6900 4710
+Wire Wire Line
+	6640 4710 6700 4710
+$Comp
+L RESISTOR0805-RES_0805 R39
+U 1 1 5698CDA7
+P 8255 4500
+F 0 "R39" V 8305 4320 70  0000 L CNN
+F 1 "1.6k" V 8205 4225 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 8255 4500 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/RC0603FR-071K6L/311-1.60KHRCT-ND/729815" H 8255 4500 60  0001 C CNN
+	1    8255 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8255 4700 8180 4700
+Wire Wire Line
+	7920 4700 7980 4700
+$Comp
+L RESISTOR0805-RES_0805 R47
+U 1 1 5698E027
+P 9530 4505
+F 0 "R47" V 9580 4325 70  0000 L CNN
+F 1 "1.6k" V 9480 4230 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 9530 4505 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/RC0603FR-071K6L/311-1.60KHRCT-ND/729815" H 9530 4505 60  0001 C CNN
+	1    9530 4505
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9530 4705 9455 4705
+Wire Wire Line
+	9195 4705 9255 4705
+$Comp
+L RESISTOR0805-RES_0805 R55
+U 1 1 5698F318
+P 10955 4515
+F 0 "R55" V 11005 4335 70  0000 L CNN
+F 1 "1.6k" V 10905 4240 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 10955 4515 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/RC0603FR-071K6L/311-1.60KHRCT-ND/729815" H 10955 4515 60  0001 C CNN
+	1    10955 4515
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10955 4715 10880 4715
+Wire Wire Line
+	10620 4715 10680 4715
+$Comp
+L RESISTOR0805-RES_0805 R56
+U 1 1 56990A1B
+P 10975 5950
+F 0 "R56" V 11025 5770 70  0000 L CNN
+F 1 "1.6k" V 10925 5675 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 10975 5950 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/RC0603FR-071K6L/311-1.60KHRCT-ND/729815" H 10975 5950 60  0001 C CNN
+	1    10975 5950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10975 6150 10900 6150
+Wire Wire Line
+	10640 6150 10700 6150
+$Comp
+L RESISTOR0805-RES_0805 R48
+U 1 1 56991665
+P 9550 5940
+F 0 "R48" V 9600 5760 70  0000 L CNN
+F 1 "1.6k" V 9500 5665 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 9550 5940 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/RC0603FR-071K6L/311-1.60KHRCT-ND/729815" H 9550 5940 60  0001 C CNN
+	1    9550 5940
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 6140 9475 6140
+Wire Wire Line
+	9215 6140 9275 6140
+$Comp
+L RESISTOR0805-RES_0805 R40
+U 1 1 569929D8
+P 8275 5935
+F 0 "R40" V 8325 5755 70  0000 L CNN
+F 1 "1.6k" V 8225 5660 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 8275 5935 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/RC0603FR-071K6L/311-1.60KHRCT-ND/729815" H 8275 5935 60  0001 C CNN
+	1    8275 5935
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8275 6135 8200 6135
+Wire Wire Line
+	7940 6135 8000 6135
+$Comp
+L Led_Small D6
+U 1 1 56993DC0
+P 6820 6145
+F 0 "D6" H 6770 6270 50  0000 L CNN
+F 1 "2 mA Org" H 6645 6045 50  0000 L CNN
+F 2 "LEDs:LED_0805" V 6820 6145 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/APT2012LSECK%2FJ4-PRV/754-1936-1-ND/5177466" V 6820 6145 50  0001 C CNN
+	1    6820 6145
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R28
+U 1 1 56993DC6
+P 6995 5945
+F 0 "R28" V 7045 5765 70  0000 L CNN
+F 1 "1.6k" V 6945 5670 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 6995 5945 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/RC0603FR-071K6L/311-1.60KHRCT-ND/729815" H 6995 5945 60  0001 C CNN
+	1    6995 5945
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6995 6145 6920 6145
+Wire Wire Line
+	6660 6145 6720 6145
+$Comp
+L Led_Small D4
+U 1 1 5699CEFE
+P 5125 6640
+F 0 "D4" H 5075 6765 50  0000 L CNN
+F 1 "2 mA Grn" H 4950 6540 50  0000 L CNN
+F 2 "LEDs:LED_0805" V 5125 6640 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/LTST-C171GKT/160-1423-1-ND/386792" V 5125 6640 50  0001 C CNN
+	1    5125 6640
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTOR0805-RES_0805 R20
+U 1 1 5699D244
+P 5125 6200
+F 0 "R20" V 5175 6020 70  0000 L CNN
+F 1 "1.6k" V 5075 5925 70  0000 L CNN
+F 2 "SPCInterfaceBoard-SPCPWSSC:r_0603" H 5125 6200 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/RC0603FR-071K6L/311-1.60KHRCT-ND/729815" H 5125 6200 60  0001 C CNN
+	1    5125 6200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5125 5755 5125 6000
+Wire Wire Line
+	5125 6400 5125 6540
+Wire Wire Line
+	5125 7645 5125 6740
+Connection ~ 4625 7645
+$Comp
+L Led_Small D5
+U 1 1 569A2C92
+P 6800 4710
+F 0 "D5" H 6750 4835 50  0000 L CNN
+F 1 "2 mA Org" H 6625 4610 50  0000 L CNN
+F 2 "LEDs:LED_0805" V 6800 4710 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/APT2012LSECK%2FJ4-PRV/754-1936-1-ND/5177466" V 6800 4710 50  0001 C CNN
+	1    6800 4710
+	1    0    0    -1  
+$EndComp
+$Comp
+L Led_Small D7
+U 1 1 569A3D27
+P 8080 4700
+F 0 "D7" H 8030 4825 50  0000 L CNN
+F 1 "2 mA Org" H 7905 4600 50  0000 L CNN
+F 2 "LEDs:LED_0805" V 8080 4700 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/APT2012LSECK%2FJ4-PRV/754-1936-1-ND/5177466" V 8080 4700 50  0001 C CNN
+	1    8080 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Led_Small D9
+U 1 1 569A4A07
+P 9355 4705
+F 0 "D9" H 9305 4830 50  0000 L CNN
+F 1 "2 mA Org" H 9180 4605 50  0000 L CNN
+F 2 "LEDs:LED_0805" V 9355 4705 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/APT2012LSECK%2FJ4-PRV/754-1936-1-ND/5177466" V 9355 4705 50  0001 C CNN
+	1    9355 4705
+	1    0    0    -1  
+$EndComp
+$Comp
+L Led_Small D11
+U 1 1 569A537D
+P 10780 4715
+F 0 "D11" H 10730 4840 50  0000 L CNN
+F 1 "2 mA Org" H 10605 4615 50  0000 L CNN
+F 2 "LEDs:LED_0805" V 10780 4715 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/APT2012LSECK%2FJ4-PRV/754-1936-1-ND/5177466" V 10780 4715 50  0001 C CNN
+	1    10780 4715
+	1    0    0    -1  
+$EndComp
+$Comp
+L Led_Small D12
+U 1 1 569A6501
+P 10800 6150
+F 0 "D12" H 10750 6275 50  0000 L CNN
+F 1 "2 mA Org" H 10625 6050 50  0000 L CNN
+F 2 "LEDs:LED_0805" V 10800 6150 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/APT2012LSECK%2FJ4-PRV/754-1936-1-ND/5177466" V 10800 6150 50  0001 C CNN
+	1    10800 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Led_Small D10
+U 1 1 569A7A24
+P 9375 6140
+F 0 "D10" H 9325 6265 50  0000 L CNN
+F 1 "2 mA Org" H 9200 6040 50  0000 L CNN
+F 2 "LEDs:LED_0805" V 9375 6140 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/APT2012LSECK%2FJ4-PRV/754-1936-1-ND/5177466" V 9375 6140 50  0001 C CNN
+	1    9375 6140
+	1    0    0    -1  
+$EndComp
+$Comp
+L Led_Small D8
+U 1 1 569A8DA2
+P 8100 6135
+F 0 "D8" H 8050 6260 50  0000 L CNN
+F 1 "2 mA Org" H 7925 6035 50  0000 L CNN
+F 2 "LEDs:LED_0805" V 8100 6135 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/APT2012LSECK%2FJ4-PRV/754-1936-1-ND/5177466" V 8100 6135 50  0001 C CNN
+	1    8100 6135
+	1    0    0    -1  
+$EndComp
+Text HLabel 3370 5450 0    60   Input ~ 0
+GNDiso
+Text Label 3710 5450 0    60   ~ 0
+GNDiso
+Wire Wire Line
+	3370 5450 3710 5450
+$Comp
+L CONN_01X04 P2
+U 1 1 569863FF
+P 1965 4205
+F 0 "P2" H 1965 4455 50  0000 C CNN
+F 1 "CONN_01X04" V 2065 4205 50  0000 C CNN
+F 2 "w_conn_mpt:mpt_0,5%2f4-2,54" H 1965 4205 50  0001 C CNN
+F 3 "" H 1965 4205 50  0000 C CNN
+	1    1965 4205
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P9
+U 1 1 569874E4
+P 1965 4605
+F 0 "P9" H 1965 4345 50  0000 C CNN
+F 1 "CONN_01X04" V 2065 4605 50  0000 C CNN
+F 2 "w_conn_mpt:mpt_0,5%2f4-2,54" H 1965 4605 50  0001 C CNN
+F 3 "" H 1965 4605 50  0000 C CNN
+	1    1965 4605
+	1    0    0    -1  
+$EndComp
+Text Notes 4070 6910 0    60   ~ 0
+Check D3 size footprint
+$EndSCHEMATC

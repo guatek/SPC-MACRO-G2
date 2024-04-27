@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Cree_XP-L_HI
+D Led
+$ENDCMP
+#
+$CMP Led_Small
+D Led
+$ENDCMP
+#
+#End Doc Library

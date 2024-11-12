@@ -1,0 +1,31 @@
+02-12 22:19:14 Kicad_action_plugins.replicate_layout.action_replicate_layout 305:Plugin executed on: 'win32'
+02-12 22:19:14 Kicad_action_plugins.replicate_layout.action_replicate_layout 306:Plugin executed with python version: '3.9.6 (default, Sep 27 2021, 21:15:11) [MSC v.1929 64 bit (AMD64)]'
+02-12 22:19:14 Kicad_action_plugins.replicate_layout.action_replicate_layout 307:KiCad build version: (6.0.0)
+02-12 22:19:14 Kicad_action_plugins.replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 77 started
+02-12 22:19:14 Kicad_action_plugins.replicate_layout.action_replicate_layout 339:Preparing replicator with D1 as a reference
+02-12 22:19:14 Kicad_action_plugins.replicate_layout.replicatelayout 141:getting a list of all footprints on board
+02-12 22:19:14 Kicad_action_plugins.replicate_layout.replicatelayout 162:total modules:193
+02-12 22:19:14 Kicad_action_plugins.replicate_layout.action_replicate_layout 366:source anchor footprint is 'D1'
+Located on:['LEDBoard', 'LEDFlashCircuit1']
+With filenames:['LEDBoard.kicad_sch', 'LEDFlashCircuit.kicad_sch']
+With sheet_id:['LEDBoard', 'LEDFlashCircuit1']
+02-12 22:19:14 Kicad_action_plugins.replicate_layout.action_replicate_layout 371:Corresponding footprints are 
+[('D1', ['LEDBoard', 'LEDFlashCircuit1']), ('D3', ['LEDBoard', 'LEDFlashCircuit2'])]
+02-12 22:19:14 Kicad_action_plugins.replicate_layout.action_replicate_layout 384:Showing dialog
+02-12 22:19:14 Kicad_action_plugins.replicate_layout.action_replicate_layout 388:Pcbnew position: wx.Point(-8, -8)
+02-12 22:19:14 Kicad_action_plugins.replicate_layout.action_replicate_layout 394:Display 0: wx.Rect(0, 0, 2560, 1440)
+02-12 22:19:14 Kicad_action_plugins.replicate_layout.action_replicate_layout 398:Toolbar position: wx.Point(2339, 125)
+02-12 22:19:14 Kicad_action_plugins.replicate_layout.action_replicate_layout 405:Dialog position: wx.Point(2026, 125)
+02-12 22:19:26 Kicad_action_plugins.replicate_layout.replicatelayout 177:construcing a list of sheets suitable for replication on level:'LEDFlashCircuit1', file:'LEDFlashCircuit.kicad_sch'
+02-12 22:19:26 Kicad_action_plugins.replicate_layout.replicatelayout 184:Source sheet path up to the level:['LEDBoard', 'LEDFlashCircuit1']
+02-12 22:19:26 Kicad_action_plugins.replicate_layout.replicatelayout 188:Footprints on the sheets:
+['D1', 'D3']
+02-12 22:19:26 Kicad_action_plugins.replicate_layout.replicatelayout 191:Footprints raw sheet ids:
+['/4f3e794f-f54b-44a0-9ce2-c1fa9fd1666a/2e7fe76f-d4fc-493c-90c1-a848d3464220/5a8e4060', '/4f3e794f-f54b-44a0-9ce2-c1fa9fd1666a/5c6d5d31-ce7c-44c9-864d-157fed29d3f5/5a8e4060']
+02-12 22:19:26 Kicad_action_plugins.replicate_layout.replicatelayout 207:All sheets to replicate:
+[['LEDBoard', 'LEDFlashCircuit1'], ['LEDBoard', 'LEDFlashCircuit2']]
+02-12 22:19:26 Kicad_action_plugins.replicate_layout.replicatelayout 212:All sheets to replicate sorted:
+[['LEDBoard', 'LEDFlashCircuit1'], ['LEDBoard', 'LEDFlashCircuit2']]
+02-12 22:19:26 Kicad_action_plugins.replicate_layout.replicatelayout 218:All sheets to replicate sorted and without source sheet:
+[['LEDBoard', 'LEDFlashCircuit2']]
+02-12 22:19:45 Kicad_action_plugins.replicate_layout.action_replicate_layout 252:User canceled the dialog

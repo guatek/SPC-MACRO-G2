@@ -1,0 +1,88 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 861f2d69-fe41-4418-b7af-dad21ccba8dd)
+
+  (paper "B")
+
+  (title_block
+    (title "BUM2 LED Controller")
+    (date "2023-01-10")
+    (rev "B")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 215.9 33.02) (size 57.15 58.42) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 133de3f7-bb5a-4614-b6c1-7c07c3649499)
+    (property "Sheetname" "UVCIllumination" (at 215.9 32.3084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "UVCIllumination.kicad_sch" (at 215.9 92.0246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "System-Controller-UVC"
+        (path "/861f2d69-fe41-4418-b7af-dad21ccba8dd" (page "17"))
+      )
+    )
+  )
+
+  (sheet (at 64.77 33.02) (size 68.58 58.42) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 43537193-6ff0-4a9a-8b59-967ffd5c87c2)
+    (property "Sheetname" "LEDController" (at 64.77 32.3084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "LEDController.kicad_sch" (at 64.77 92.0246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "System-Controller-UVC"
+        (path "/861f2d69-fe41-4418-b7af-dad21ccba8dd" (page "20"))
+      )
+    )
+  )
+
+  (sheet (at 143.51 33.02) (size 68.58 58.42) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4f3e794f-f54b-44a0-9ce2-c1fa9fd1666a)
+    (property "Sheetname" "VioletRingIllumination" (at 143.51 32.3084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "VioletRingIllumination.kicad_sch" (at 143.51 92.0246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "System-Controller-UVC"
+        (path "/861f2d69-fe41-4418-b7af-dad21ccba8dd" (page "12"))
+      )
+    )
+  )
+
+  (sheet (at 143.51 100.33) (size 68.58 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 94addba0-6684-4177-9892-36c05c085613)
+    (property "Sheetname" "DarkfieldColorAndIRIllumination" (at 143.51 99.6184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "DarkfieldColorAndIRIllumination.kicad_sch" (at 143.51 132.6646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "System-Controller-UVC"
+        (path "/861f2d69-fe41-4418-b7af-dad21ccba8dd" (page "11"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

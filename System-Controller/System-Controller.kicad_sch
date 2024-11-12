@@ -14,6 +14,12 @@
   )
 
 
+  (text "RevA Problems:\nU116 shares I2C address with U107. \nD8 pin on Montino M0 is used by flash, reworked to connect LED2_ENABLE to D9 (TRIG3)\n10k pulldowns on Pololu are not strong enough at 24V input, changed to 3.3k\n\nRevB:\nChanged U116 I2C address to 0x48"
+    (at 232.41 48.26 0)
+    (effects (font (size 2.44 2.44)) (justify left bottom))
+    (uuid 3a0843e2-ef77-4843-a790-ebcbc5a0003f)
+  )
+
   (sheet (at 64.77 33.02) (size 68.58 58.42) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
